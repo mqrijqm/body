@@ -15,7 +15,6 @@ export const siteContent = {
     { label: 'O studiju', href: '#studio' },
     { label: 'Treninzi', href: '#treninzi' },
     { label: 'Iskustvo', href: '#iskustvo' },
-    { label: 'Galerija', href: '#galerija' },
     { label: 'Kontakt', href: '#kontakt' },
   ],
   trainings: [
