@@ -1,0 +1,90 @@
+- generic [active] [ref=f22e1]:
+  - banner [ref=f22e2]:
+    - navigation "Glavna navigacija" [ref=f22e3]:
+      - link "O nama" [ref=f22e4] [cursor=pointer]:
+        - /url: /o-nama
+      - link "Studio" [ref=f22e5] [cursor=pointer]:
+        - /url: /studio
+    - link "Cloud 9 Reformer Pilates — početna" [ref=f22e6] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f22e7]: CLOUD
+    - navigation "Glavna navigacija" [ref=f22e14]:
+      - link "Raspored" [ref=f22e15] [cursor=pointer]:
+        - /url: /raspored
+      - link "Cijene" [ref=f22e16] [cursor=pointer]:
+        - /url: /cijene
+      - link "Rezerviši" [ref=f22e17] [cursor=pointer]:
+        - /url: /nalog
+  - main [ref=f22e18]:
+    - generic [ref=f22e19]:
+      - generic [ref=f22e20]:
+        - paragraph [ref=f22e21]: Kontakt
+        - heading [level=1] [ref=f22e22]:
+          - text: Javi se,
+          - emphasis [ref=f22e23]: pa se dogovorimo.
+        - paragraph [ref=f22e24]: Najbrže ide porukom — napiši koji dani i sati ti odgovaraju i da li ti je prvi put na reformeru.
+      - generic [ref=f22e25]:
+        - generic [ref=f22e26]:
+          - generic [ref=f22e27]:
+            - generic [ref=f22e28]:
+              - term [ref=f22e29]: Adresa
+              - definition [ref=f22e30]: Još nije potvrđeno
+            - generic [ref=f22e31]:
+              - term [ref=f22e32]: Telefon
+              - definition [ref=f22e33]: Još nije potvrđeno
+            - generic [ref=f22e34]:
+              - term [ref=f22e35]: Email
+              - definition [ref=f22e36]: Još nije potvrđeno
+            - generic [ref=f22e37]:
+              - term [ref=f22e38]: Instagram
+              - definition [ref=f22e39]: Još nije potvrđeno
+            - generic [ref=f22e40]:
+              - term [ref=f22e41]: Radno vrijeme
+              - definition [ref=f22e42]: Još nije potvrđeno
+          - generic [ref=f22e43]:
+            - link "Rezerviši termin" [ref=f22e44] [cursor=pointer]:
+              - /url: /nalog
+              - text: Rezerviši termin
+              - generic [ref=f22e45]: ↗
+            - link "Česta pitanja" [ref=f22e46] [cursor=pointer]:
+              - /url: /pitanja
+        - figure "Cloud 9 Studio" [ref=f22e47]:
+          - img "Vježba na reformeru u Cloud 9 studiju" [ref=f22e48]
+      - generic [ref=f22e50]:
+        - heading [level=2] [ref=f22e51]:
+          - text: Prvi čas je uvijek
+          - emphasis [ref=f22e52]: najteži za zakazati.
+        - link "Rezerviši termin" [ref=f22e53] [cursor=pointer]:
+          - /url: /nalog
+          - text: Rezerviši termin
+          - generic [ref=f22e54]: ↗
+  - contentinfo [ref=f22e55]:
+    - generic [ref=f22e56]:
+      - generic [ref=f22e57]:
+        - generic [ref=f22e60]: CLOUD
+        - generic [ref=f22e68]: REFORMER PILATES
+      - navigation "Navigacija u podnožju" [ref=f22e69]:
+        - link "O nama" [ref=f22e70] [cursor=pointer]:
+          - /url: /o-nama
+        - link "Studio" [ref=f22e71] [cursor=pointer]:
+          - /url: /studio
+        - link "Raspored" [ref=f22e72] [cursor=pointer]:
+          - /url: /raspored
+        - link "Cijene" [ref=f22e73] [cursor=pointer]:
+          - /url: /cijene
+        - link "Pitanja" [ref=f22e74] [cursor=pointer]:
+          - /url: /pitanja
+        - link "Nalog" [ref=f22e75] [cursor=pointer]:
+          - /url: /nalog
+        - link "Kontakt" [ref=f22e76] [cursor=pointer]:
+          - /url: /kontakt
+      - generic [ref=f22e77]:
+        - term [ref=f22e78]: Studio
+        - definition [ref=f22e79]: Adresa uskoro
+        - term [ref=f22e80]: Kontakt
+        - definition [ref=f22e81]: Broj uskoro
+    - generic [ref=f22e82]:
+      - paragraph [ref=f22e83]: © 2026 Cloud 9 Reformer Pilates
+      - link "Nazad na početnu ↑" [ref=f22e84] [cursor=pointer]:
+        - /url: /
+  - alert [ref=f22e85]

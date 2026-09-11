@@ -1,0 +1,134 @@
+- generic [active] [ref=f11e1]:
+  - banner [ref=f11e2]:
+    - navigation [ref=f11e3]:
+      - link "About" [ref=f11e4] [cursor=pointer]:
+        - /url: "#"
+      - link "Meet the studio" [ref=f11e5] [cursor=pointer]:
+        - /url: "#"
+    - navigation [ref=f11e6]:
+      - link [ref=f11e7] [cursor=pointer]:
+        - /url: "#"
+        - img "Cloud 9" [ref=f11e8]
+    - navigation [ref=f11e9]:
+      - link "Timetable" [ref=f11e10] [cursor=pointer]:
+        - /url: "#"
+      - link "Prices" [ref=f11e11] [cursor=pointer]:
+        - /url: "#"
+  - link "First class free" [ref=f11e12] [cursor=pointer]:
+    - /url: "#"
+  - img "Cloud 9 Reformer Pilates" [ref=f11e14]
+  - generic [ref=f11e16]:
+    - heading "Breathe Align Restore" [level=2] [ref=f11e17]
+    - heading "Reformer pilates built on precision, control and the slow work of a body that lasts" [level=1] [ref=f11e18]
+    - link "Explore" [ref=f11e19] [cursor=pointer]:
+      - /url: "#"
+  - generic [ref=f11e21]:
+    - generic [ref=f11e22]:
+      - heading "The Reformer Studio to move your body and quiet your mind" [level=2] [ref=f11e23]
+      - link "Book a class" [ref=f11e24] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=f11e25]:
+      - list [ref=f11e26]:
+        - listitem [ref=f11e27]: + Small group reformer classes
+        - listitem [ref=f11e28]: + Private and duet sessions
+        - listitem [ref=f11e29]: + Beginner courses every month
+        - listitem [ref=f11e30]: + Ten fully equipped reformers
+        - listitem [ref=f11e31]: + First class free
+      - link "Book a class" [ref=f11e32] [cursor=pointer]:
+        - /url: "#"
+  - generic [ref=f11e35]:
+    - generic [ref=f11e36]:
+      - generic [ref=f11e37]:
+        - heading "Ten reformers, small groups" [level=3] [ref=f11e38]
+        - paragraph [ref=f11e39]: Never more than ten on the floor. Enough space to be seen, corrected and actually coached through every repetition.
+      - generic [ref=f11e40]:
+        - heading "Built around your body" [level=3] [ref=f11e41]
+        - paragraph [ref=f11e42]: Springs, straps and tempo adjust to you. The same class works for a first-timer and for someone rebuilding after injury.
+    - generic [ref=f11e43]:
+      - generic [ref=f11e44]: YOUR VIDEO
+      - link "See the timetable" [ref=f11e46] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=f11e47]:
+      - generic [ref=f11e48]:
+        - heading "A timetable that fits" [level=3] [ref=f11e49]
+        - paragraph [ref=f11e50]: Early mornings, lunch hours and evenings, seven days a week. Book, move, and get on with your day.
+      - generic [ref=f11e51]:
+        - heading "Progress you can feel" [level=3] [ref=f11e52]
+        - paragraph [ref=f11e53]: Six weeks in, clients tell us the same thing — better posture, a quieter back, and a body that finally feels like it listens.
+  - generic [ref=f11e57]:
+    - heading "Meet the studio" [level=4] [ref=f11e58]
+    - generic [ref=f11e59]:
+      - generic [ref=f11e60]:
+        - paragraph [ref=f11e61]: Cloud 9 started as a place to step out of the noise and back into the body — somewhere the work is slow, deliberate and entirely yours.
+        - link "About Cloud 9" [ref=f11e62] [cursor=pointer]:
+          - /url: "#"
+      - paragraph [ref=f11e64]: "The method comes down to one idea: sustainable strength. You leave a class feeling capable and taller, not emptied out."
+  - generic [ref=f11e66]:
+    - heading "Client testimonials" [level=2] [ref=f11e67]
+    - generic [ref=f11e68]:
+      - button "Previous" [ref=f11e69] [cursor=pointer]: ‹
+      - generic [ref=f11e70]:
+        - paragraph [ref=f11e71]: "\"The perfect mix of classical and contemporary, and each class is unique, with extra focus on form and alignment. I have been at this for years now and it has transformed both my practice and my strength in a way nothing else has.\""
+        - heading "Client name" [level=3] [ref=f11e72]
+      - button "Next" [ref=f11e73] [cursor=pointer]: ›
+    - link "Book a class" [ref=f11e75] [cursor=pointer]:
+      - /url: "#"
+  - generic [ref=f11e77]:
+    - generic [ref=f11e78]:
+      - paragraph [ref=f11e79] [cursor=pointer]: Reformer Flow
+      - paragraph [ref=f11e80] [cursor=pointer]: Strength & Stretch
+      - paragraph [ref=f11e81] [cursor=pointer]: Beginner Course
+    - generic [ref=f11e83]:
+      - generic [ref=f11e84]: YOUR VIDEO
+      - paragraph [ref=f11e86]: Continuous, flowing sequences on the reformer. The slow burn of pilates, and muscles you did not know you had. Suitable for all levels.
+  - generic [ref=f11e87]:
+    - link [ref=f11e88] [cursor=pointer]:
+      - /url: "#"
+      - heading "@cloud9reformerpilates" [level=2] [ref=f11e89]
+    - generic [ref=f11e90]:
+      - link [ref=f11e91] [cursor=pointer]:
+        - /url: "#"
+      - link [ref=f11e92] [cursor=pointer]:
+        - /url: "#"
+      - link [ref=f11e93] [cursor=pointer]:
+        - /url: "#"
+      - link [ref=f11e94] [cursor=pointer]:
+        - /url: "#"
+      - link [ref=f11e95] [cursor=pointer]:
+        - /url: "#"
+      - link [ref=f11e96] [cursor=pointer]:
+        - /url: "#"
+      - link [ref=f11e97] [cursor=pointer]:
+        - /url: "#"
+      - link [ref=f11e98] [cursor=pointer]:
+        - /url: "#"
+  - contentinfo [ref=f11e99]:
+    - generic [ref=f11e100]:
+      - img "Cloud 9 Reformer Pilates" [ref=f11e102]
+      - generic [ref=f11e103]:
+        - link "Home" [ref=f11e104] [cursor=pointer]:
+          - /url: "#"
+        - link "Book a class" [ref=f11e105] [cursor=pointer]:
+          - /url: "#"
+        - link "About" [ref=f11e106] [cursor=pointer]:
+          - /url: "#"
+        - link "Meet the studio" [ref=f11e107] [cursor=pointer]:
+          - /url: "#"
+        - link "Timetable" [ref=f11e108] [cursor=pointer]:
+          - /url: "#"
+        - link "Prices" [ref=f11e109] [cursor=pointer]:
+          - /url: "#"
+        - link "Your account" [ref=f11e110] [cursor=pointer]:
+          - /url: "#"
+        - link "Contact" [ref=f11e111] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=f11e112]:
+        - heading "Subscribe to my newsletter" [level=4] [ref=f11e113]
+        - generic [ref=f11e114]:
+          - textbox "First name" [ref=f11e115]
+          - textbox "Email address" [ref=f11e116]
+          - button "Subscribe" [ref=f11e117] [cursor=pointer]
+    - paragraph [ref=f11e119]:
+      - text: © Copyright 2026 Cloud 9 Reformer Pilates.
+      - link "Website by —" [ref=f11e120] [cursor=pointer]:
+        - /url: "#"

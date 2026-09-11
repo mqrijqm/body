@@ -1,0 +1,127 @@
+- generic [active] [ref=f23e1]:
+  - banner [ref=f23e2]:
+    - navigation "Glavna navigacija" [ref=f23e3]:
+      - link "O nama" [ref=f23e4] [cursor=pointer]:
+        - /url: /o-nama
+      - link "Studio" [ref=f23e5] [cursor=pointer]:
+        - /url: /studio
+    - link "Cloud 9 Reformer Pilates — početna" [ref=f23e6] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f23e7]: CLOUD
+    - navigation "Glavna navigacija" [ref=f23e14]:
+      - link "Raspored" [ref=f23e15] [cursor=pointer]:
+        - /url: /raspored
+      - link "Cijene" [ref=f23e16] [cursor=pointer]:
+        - /url: /cijene
+      - link "Rezerviši" [ref=f23e17] [cursor=pointer]:
+        - /url: /nalog
+  - main [ref=f23e18]:
+    - generic [ref=f23e19]:
+      - generic [ref=f23e20]:
+        - generic [ref=f23e21]:
+          - generic [ref=f23e24]: CLOUD
+          - generic [ref=f23e32]: REFORMER PILATES
+        - heading [level=1] [ref=f23e33]:
+          - text: Snaga koja te
+          - emphasis [ref=f23e34]: podigne.
+        - paragraph [ref=f23e35]: Reformer studio u kojem se radi sporo, precizno i do kraja. Male grupe, jasno vođenje i pokret koji ostaje i kad izađeš iz sale.
+        - generic [ref=f23e36]:
+          - link "Rezerviši termin" [ref=f23e37] [cursor=pointer]:
+            - /url: /nalog
+            - text: Rezerviši termin
+            - generic [ref=f23e38]: ↗
+          - link "Vidi treninge" [ref=f23e39] [cursor=pointer]:
+            - /url: /raspored
+      - img "Vježbačica u iskoraku na reformeru" [ref=f23e41]
+      - generic [ref=f23e42]: Skroluj
+    - generic [ref=f23e44]:
+      - text: Pokret je lijek
+      - generic [ref=f23e45]: ·
+      - text: Kontrola je moć
+      - generic [ref=f23e46]: ·
+      - text: Dah prije snage
+    - region [ref=f23e47]:
+      - generic [ref=f23e48]:
+        - paragraph [ref=f23e49]: Zašto reformer
+        - heading [level=2] [ref=f23e50]:
+          - text: Pilates nije trend.
+          - emphasis [ref=f23e51]: To je način kretanja.
+      - list [ref=f23e52]:
+        - listitem [ref=f23e53]:
+          - generic [ref=f23e54]: "01"
+          - generic [ref=f23e55]:
+            - heading "Pokret je lijek." [level=3] [ref=f23e56]
+            - paragraph [ref=f23e57]: Reformer ne traži snagu unaprijed — gradi je iz kontrole, daha i tačne linije.
+        - listitem [ref=f23e58]:
+          - generic [ref=f23e59]: "02"
+          - generic [ref=f23e60]:
+            - heading "Kontrola je moć." [level=3] [ref=f23e61]
+            - paragraph [ref=f23e62]: Svaki ponovljeni pokret je odluka. Zato radimo sporo, precizno i do kraja.
+    - region "Sadržaj sajta" [ref=f23e63]:
+      - generic [ref=f23e64]:
+        - link [ref=f23e65] [cursor=pointer]:
+          - /url: /studio
+          - paragraph [ref=f23e66]: Studio
+          - heading "Mjesto gdje je tijelo na prvom mjestu." [level=2] [ref=f23e67]
+          - paragraph [ref=f23e68]: Male grupe, bez ogledala u koja se bulji, bez trke za brojem ponavljanja.
+          - generic [ref=f23e69]: ↗
+        - link [ref=f23e70] [cursor=pointer]:
+          - /url: /raspored
+          - paragraph [ref=f23e71]: Raspored
+          - heading "Isti reformer, četiri načina." [level=2] [ref=f23e72]
+          - paragraph [ref=f23e73]: Grupni, individualni, duo i intro čas. Svaki traje 50 minuta.
+          - generic [ref=f23e74]: ↗
+        - link [ref=f23e75] [cursor=pointer]:
+          - /url: /cijene
+          - paragraph [ref=f23e76]: Cijene
+          - heading "Odaberi ritam, ne obavezu." [level=2] [ref=f23e77]
+          - paragraph [ref=f23e78]: Od pojedinačnog termina do paketa za one koje su odlučile.
+          - generic [ref=f23e79]: ↗
+    - region "Citat studija" [ref=f23e80]:
+      - img "Vježba na reformeru sa trakama za noge" [ref=f23e82]
+      - generic [ref=f23e83]:
+        - blockquote [ref=f23e84]:
+          - text: Tijelo pamti
+          - emphasis [ref=f23e85]: ono što ponavljaš.
+        - paragraph [ref=f23e86]: Zato ne jurimo broj ponavljanja. Jurimo tačan pokret, pa ga ponovimo dovoljno puta da postane tvoj.
+    - generic [ref=f23e87]:
+      - generic [ref=f23e88]:
+        - generic [ref=f23e91]: CLOUD
+        - generic [ref=f23e99]: REFORMER PILATES
+      - heading [level=2] [ref=f23e100]:
+        - text: Prvi čas je uvijek
+        - emphasis [ref=f23e101]: najteži za zakazati.
+      - link "Rezerviši termin" [ref=f23e102] [cursor=pointer]:
+        - /url: /nalog
+        - text: Rezerviši termin
+        - generic [ref=f23e103]: ↗
+  - contentinfo [ref=f23e104]:
+    - generic [ref=f23e105]:
+      - generic [ref=f23e106]:
+        - generic [ref=f23e109]: CLOUD
+        - generic [ref=f23e117]: REFORMER PILATES
+      - navigation "Navigacija u podnožju" [ref=f23e118]:
+        - link "O nama" [ref=f23e119] [cursor=pointer]:
+          - /url: /o-nama
+        - link "Studio" [ref=f23e120] [cursor=pointer]:
+          - /url: /studio
+        - link "Raspored" [ref=f23e121] [cursor=pointer]:
+          - /url: /raspored
+        - link "Cijene" [ref=f23e122] [cursor=pointer]:
+          - /url: /cijene
+        - link "Pitanja" [ref=f23e123] [cursor=pointer]:
+          - /url: /pitanja
+        - link "Nalog" [ref=f23e124] [cursor=pointer]:
+          - /url: /nalog
+        - link "Kontakt" [ref=f23e125] [cursor=pointer]:
+          - /url: /kontakt
+      - generic [ref=f23e126]:
+        - term [ref=f23e127]: Studio
+        - definition [ref=f23e128]: Adresa uskoro
+        - term [ref=f23e129]: Kontakt
+        - definition [ref=f23e130]: Broj uskoro
+    - generic [ref=f23e131]:
+      - paragraph [ref=f23e132]: © 2026 Cloud 9 Reformer Pilates
+      - link "Nazad na početnu ↑" [ref=f23e133] [cursor=pointer]:
+        - /url: /
+  - alert [ref=f23e134]

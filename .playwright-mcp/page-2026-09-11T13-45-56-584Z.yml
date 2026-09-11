@@ -1,0 +1,208 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - navigation [ref=f1e3]:
+      - link "About" [ref=f1e4] [cursor=pointer]:
+        - /url: /about
+      - link "Meet Harriet" [ref=f1e5] [cursor=pointer]:
+        - /url: /meet-harriet
+    - navigation [ref=f1e6]:
+      - link [ref=f1e7] [cursor=pointer]:
+        - /url: /
+    - navigation [ref=f1e8]:
+      - link "Virtual Studio" [ref=f1e9] [cursor=pointer]:
+        - /url: /virtual-studio
+      - link "Live Classes" [ref=f1e10] [cursor=pointer]:
+        - /url: /live-classes
+  - generic:
+    - navigation:
+      - generic:
+        - link:
+          - /url: /
+        - link "Home":
+          - /url: /
+        - link "Start Your Trial":
+          - /url: /start-trial
+        - link "About":
+          - /url: /about
+        - link "Meet Harriet":
+          - /url: /meet-harriet
+        - link "Virtual Studio":
+          - /url: /virtual-studio
+        - link "Live Classes":
+          - /url: /live-classes
+        - link "Contact":
+          - /url: /contact
+  - link "Start your trial" [ref=f1e15] [cursor=pointer]:
+    - /url: /start-trial
+  - img "Pilates With Harriet logo with tagline - Connect, Sculpt, Strengthen" [ref=f1e17]
+  - generic [ref=f1e19]:
+    - heading "Strengthen • Lengthen • Transform" [level=2] [ref=f1e20]
+    - heading "Pilates with Harriet creates lifelong, transformative results for your body and mind" [level=1] [ref=f1e21]
+    - link "Explore" [ref=f1e22] [cursor=pointer]:
+      - /url: "#explore"
+  - generic [ref=f1e24]:
+    - generic [ref=f1e25]:
+      - heading "The Online Pilates studio to transform your body and mind" [level=2] [ref=f1e26]
+      - link "Start your trial" [ref=f1e27] [cursor=pointer]:
+        - /url: /start-trial
+    - list [ref=f1e29]:
+      - listitem [ref=f1e30]: + On demand library of classes
+      - listitem [ref=f1e31]: + Monthly challenges
+      - listitem [ref=f1e32]: + Live classes each month
+      - listitem [ref=f1e33]: + New classes every month
+      - listitem [ref=f1e34]: + 7 day free trial
+  - generic [ref=f1e37]:
+    - generic [ref=f1e38]:
+      - generic [ref=f1e39]:
+        - heading "Workout anytime and anywhere" [level=3] [ref=f1e40]
+        - paragraph [ref=f1e41]: Pilates with Harriet can be done whenever, wherever. It's like having the very best studio at your fingertips!
+      - generic [ref=f1e42]:
+        - heading "Fun and Effective Pilates workouts" [level=3] [ref=f1e43]
+        - paragraph [ref=f1e44]: Pilates classes designed to build strength and connection, giving you the best relationship with your body
+    - generic [ref=f1e45]:
+      - generic [ref=f1e46]: Your browser does not support the video tag.
+      - link "Explore library" [ref=f1e48] [cursor=pointer]:
+        - /url: /virtual-studio
+    - generic [ref=f1e49]:
+      - generic [ref=f1e50]:
+        - heading "New Pilates classes added every month" [level=3] [ref=f1e51]
+        - paragraph [ref=f1e52]: An online studio offering a variety of Pilates workouts so you can try a new workout everyday and build a consistent pilates practice in your routine
+      - generic [ref=f1e53]:
+        - heading "Monthly challenges with rewards" [level=3] [ref=f1e54]
+        - paragraph [ref=f1e55]: Designed to take your practice to the next level and help you stay committed to yourself. Plus an exciting new reward every month once you've completed it.
+  - generic [ref=f1e57]:
+    - img "Pilates With Harriet portrait image of Founder, Harriet" [ref=f1e59]
+    - generic [ref=f1e60]:
+      - heading "Meet Harriet" [level=4] [ref=f1e61]
+      - generic [ref=f1e62]:
+        - generic [ref=f1e63]:
+          - paragraph [ref=f1e64]: I developed Pilates with Harriet as a place to escape the pressures of life and to connect back to your best self while achieving life changing results on the way.With years of teaching experience as well as having the privilege to have taught over 100 different clients, I have learnt what it is that creates huge change and lasting results in bodies.
+          - link "About Harriet" [ref=f1e65] [cursor=pointer]:
+            - /url: /meet-harriet
+        - paragraph [ref=f1e67]: My approach to health is about creating incredible yet sustainable results which leave you feeling empowered on and off the mat.It never fails to amaze me how amazing our bodies truly are and with the right workout, you can achieve anything.
+  - generic [ref=f1e69]:
+    - heading "Client Testimonials" [level=2] [ref=f1e70]
+    - generic [ref=f1e71]:
+      - button "Previous" [ref=f1e72] [cursor=pointer]: ←Previous
+      - generic [ref=f1e74]:
+        - generic [ref=f1e75]:
+          - heading [level=3] [ref=f1e76]: “Thank you Harriet for your classes. They are the perfect mix of classical and contempary and each class is unique with extra focus on form and alignment. I’ve been doing Pilates for years and tried a lot of classes but my practice and strength has transformed in the past few months since training with Harriet.”
+          - paragraph [ref=f1e77]: Katrina Mannings
+        - generic [ref=f1e78]:
+          - heading "“Harriets classes are my favourite part of the day. She has a calm, positive and encouraging energy which makes the time fly by, it's like working out with a friend! I’ve seen my body, strength and confidence build dramatically in just 3 months and I’m consistantly progressing every week. My work requires me to travel a lot and I'm grateful I can keep up my practice with her while I am away.”" [level=3] [ref=f1e79]
+          - paragraph [ref=f1e80]: Rose Yang
+        - generic [ref=f1e81]:
+          - heading [level=3] [ref=f1e82]: “After giving birth to my second child, getting my abdominal strength back seemed unimaginable. However, after training with Harriet for over a year now I am stronger and in better shape than I was before having children. Her positive energy makes our classes together something I look forward to everyday”
+          - paragraph [ref=f1e83]: Natalie Kendrick
+        - generic [ref=f1e84]:
+          - heading [level=3] [ref=f1e85]: “I've tried every workout under the sun, be that weight training, spin, running and even CrossFit but nothing has given me better results and more peace with my body than Pilates with Harriet”
+          - paragraph [ref=f1e86]: Louise Brake
+        - generic [ref=f1e87]:
+          - heading [level=3] [ref=f1e88]: “Im a personal trainer myself so I have always thought of myself as strong but pilates with harriet takes it to the next level. We’ve worked muscles I didn’t know i had and my strength workouts have improved massively since i started working with her.”
+          - paragraph [ref=f1e89]: Karmen Ledgister
+        - generic [ref=f1e90]:
+          - heading [level=3] [ref=f1e91]: “Thank you Harriet for your classes. They are the perfect mix of classical and contempary and each class is unique with extra focus on form and alignment. I’ve been doing Pilates for years and tried a lot of classes but my practice and strength has transformed in the past few months since training with Harriet.”
+          - paragraph [ref=f1e92]: Katrina Mannings
+        - generic [ref=f1e93]:
+          - heading [level=3] [ref=f1e94]: “Harriets classes are my favourite part of the day. She has a calm, positive and encouraging energy which makes the time fly by, it's like working out with a friend! I’ve seen my body, strength and confidence build dramatically in just 3 months and I’m consistantly progressing every week. My work requires me to travel a lot and I'm grateful I can keep up my practice with her while I am away.”
+          - paragraph [ref=f1e95]: Rose Yang
+        - generic [ref=f1e96]:
+          - heading [level=3] [ref=f1e97]: “After giving birth to my second child, getting my abdominal strength back seemed unimaginable. However, after training with Harriet for over a year now I am stronger and in better shape than I was before having children. Her positive energy makes our classes together something I look forward to everyday”
+          - paragraph [ref=f1e98]: Natalie Kendrick
+        - generic [ref=f1e99]:
+          - heading [level=3] [ref=f1e100]: “I've tried every workout under the sun, be that weight training, spin, running and even CrossFit but nothing has given me better results and more peace with my body than Pilates with Harriet”
+          - paragraph [ref=f1e101]: Louise Brake
+        - generic [ref=f1e102]:
+          - heading [level=3] [ref=f1e103]: “Im a personal trainer myself so I have always thought of myself as strong but pilates with harriet takes it to the next level. We’ve worked muscles I didn’t know i had and my strength workouts have improved massively since i started working with her.”
+          - paragraph [ref=f1e104]: Karmen Ledgister
+        - generic [ref=f1e105]:
+          - heading [level=3] [ref=f1e106]: “Thank you Harriet for your classes. They are the perfect mix of classical and contempary and each class is unique with extra focus on form and alignment. I’ve been doing Pilates for years and tried a lot of classes but my practice and strength has transformed in the past few months since training with Harriet.”
+          - paragraph [ref=f1e107]: Katrina Mannings
+      - button "Next" [ref=f1e108] [cursor=pointer]: →Next
+    - link "Virtual Studio" [ref=f1e110] [cursor=pointer]:
+      - /url: /virtual-studio
+  - generic [ref=f1e112]:
+    - generic [ref=f1e113]:
+      - paragraph [ref=f1e114] [cursor=pointer]: Sculpt & Tone
+      - paragraph [ref=f1e115] [cursor=pointer]: Sculpt & Stretch
+      - paragraph [ref=f1e116] [cursor=pointer]: For Beginners
+    - generic [ref=f1e118]:
+      - iframe [ref=f1e120]:
+        - generic [ref=f2e4]:
+          - generic: Playing in picture-in-picture
+          - generic:
+            - generic:
+              - button "Play" [ref=f2e12] [cursor=pointer]
+              - generic [ref=f2e16]:
+                - generic [ref=f2e17]:
+                  - slider "Progress Bar" [ref=f2e18] [cursor=pointer]
+                  - generic [ref=f2e19] [cursor=pointer]
+                  - generic: 00:00
+                  - generic [ref=f2e22] [cursor=pointer]: 00:31
+                - generic:
+                  - generic:
+                    - generic [ref=f2e24]:
+                      - button "Mute" [ref=f2e26] [cursor=pointer]
+                      - slider "Volume (use up/down arrow keys to change)"
+                    - button "Settings" [ref=f2e29] [cursor=pointer]
+                    - button "Speed" [ref=f2e32] [cursor=pointer]
+                    - button "Picture-in-Picture" [ref=f2e36] [cursor=pointer]
+                    - button "Fullscreen" [ref=f2e39] [cursor=pointer]
+      - paragraph [ref=f1e121]: These classes are designed to strengthen, sculpt and align. Enjoy the slow burn of pilates and discover muscles you didnt even know you had. Suitable for all levels
+  - generic [ref=f1e122]:
+    - link [ref=f1e123] [cursor=pointer]:
+      - /url: https://www.instagram.com/pilateswithharriet
+      - heading "@pilateswithharriet" [level=2] [ref=f1e124]
+    - generic [ref=f1e125]:
+      - link [ref=f1e126] [cursor=pointer]:
+        - /url: https://www.instagram.com/pilateswithharriet/
+      - link [ref=f1e127] [cursor=pointer]:
+        - /url: https://www.instagram.com/pilateswithharriet/
+      - link [ref=f1e128] [cursor=pointer]:
+        - /url: https://www.instagram.com/pilateswithharriet/
+      - link [ref=f1e129] [cursor=pointer]:
+        - /url: https://www.instagram.com/pilateswithharriet/
+      - link [ref=f1e130] [cursor=pointer]:
+        - /url: https://www.instagram.com/pilateswithharriet/
+      - link [ref=f1e131] [cursor=pointer]:
+        - /url: https://www.instagram.com/pilateswithharriet/
+      - link [ref=f1e132] [cursor=pointer]:
+        - /url: https://www.instagram.com/pilateswithharriet/
+      - link [ref=f1e133] [cursor=pointer]:
+        - /url: https://www.instagram.com/pilateswithharriet/
+  - contentinfo [ref=f1e134]:
+    - generic [ref=f1e135]:
+      - generic [ref=f1e137]:
+        - link "Home" [ref=f1e138] [cursor=pointer]:
+          - /url: /
+        - link "Start Trial" [ref=f1e139] [cursor=pointer]:
+          - /url: /start-trial
+        - link "About" [ref=f1e140] [cursor=pointer]:
+          - /url: /about
+        - link "Meet Harriet" [ref=f1e141] [cursor=pointer]:
+          - /url: /meet-harriet
+        - link "Virtual Studio" [ref=f1e142] [cursor=pointer]:
+          - /url: /virtual-studio
+        - link "Live Classes" [ref=f1e143] [cursor=pointer]:
+          - /url: /live-classes
+        - link "Your Account" [ref=f1e144] [cursor=pointer]:
+          - /url: /account
+        - link "Contact" [ref=f1e145] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f1e146]:
+        - heading "Subscribe to my newsletter" [level=4] [ref=f1e147]
+        - generic [ref=f1e153]:
+          - generic [ref=f1e154]:
+            - generic [ref=f1e155]:
+              - textbox "First name *" [ref=f1e156]:
+                - /placeholder: dzdLUTM2cHd2
+              - generic: First name *
+            - generic [ref=f1e157]:
+              - textbox "Email add ress*" [ref=f1e158]:
+                - /placeholder: dmJ0R1o
+              - generic: Email add ress*
+          - button "Subscribe" [ref=f1e160] [cursor=pointer]
+    - paragraph [ref=f1e162]:
+      - text: © Copyright 2026 Pilates With Harriet. Website by
+      - link "Klioh Studio" [ref=f1e163] [cursor=pointer]:
+        - /url: https://klioh.com

@@ -1,0 +1,120 @@
+- generic [ref=f23e2]:
+  - banner [ref=f23e3]:
+    - navigation [ref=f23e4]:
+      - link "O nama" [ref=f23e5] [cursor=pointer]:
+        - /url: /o-nama
+      - link "Upoznaj nas" [ref=f23e6] [cursor=pointer]:
+        - /url: /upoznaj-nas
+    - link "Cloud 9 Reformer Pilates — početna" [ref=f23e7] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f23e8]: CLOUD
+    - navigation [ref=f23e15]:
+      - link "Virtuelni studio" [ref=f23e16] [cursor=pointer]:
+        - /url: /virtuelni-studio
+      - link "Termini uživo" [ref=f23e17] [cursor=pointer]:
+        - /url: /#termini
+  - generic [ref=f23e19]:
+    - heading "Ojačaj · Izduži · Preobrazi" [level=2] [ref=f23e20]:
+      - text: Ojačaj · Izduži ·
+      - generic [ref=f23e21]: Preobrazi
+    - heading "Reformer studio koji mijenja tvoje tijelo i um" [level=1] [ref=f23e22]
+  - generic [ref=f23e24]:
+    - img "Vježba na reformeru" [ref=f23e26]
+    - generic [ref=f23e27]:
+      - heading "Virtuelni studio koji mijenja tvoje tijelo i um" [level=3] [ref=f23e28]: Virtuelni studio koji mijenjatvoje tijelo i um
+      - paragraph [ref=f23e29]: Platforma je napravljena da oblikuje, jača i poravnava, i da te drži u ritmu vježbanja novim, zanimljivim treninzima svakog mjeseca.
+      - generic [ref=f23e30]:
+        - list [ref=f23e31]:
+          - listitem [ref=f23e32]: + Biblioteka časova na zahtjev
+          - listitem [ref=f23e33]: + Mjesečni izazovi
+          - listitem [ref=f23e34]: + Časovi uživo svakog mjeseca
+        - list [ref=f23e35]:
+          - listitem [ref=f23e36]: + Novi časovi svakog mjeseca
+          - listitem [ref=f23e37]: + Sedam dana besplatno
+      - paragraph [ref=f23e38]: 20 KM mjesečno / 200 KM godišnje
+      - link "Počni probni period" [ref=f23e39] [cursor=pointer]:
+        - /url: /virtuelni-studio
+  - generic [ref=f23e41]:
+    - generic [ref=f23e42]:
+      - heading "Oblikovanje i tonus" [level=2] [ref=f23e43]
+      - paragraph [ref=f23e44]: Ovi časovi su napravljeni da jačaju, oblikuju i poravnavaju. Uživaj u sporom gorenju pilatesa i otkrij mišiće za koje nisi ni znala da postoje.
+      - paragraph [ref=f23e45]: Za sve nivoe
+    - img "Oblikovanje i tonus" [ref=f23e47]
+    - img "Oblikovanje i istezanje" [ref=f23e49]
+    - generic [ref=f23e50]:
+      - heading "Oblikovanje i istezanje" [level=2] [ref=f23e51]
+      - paragraph [ref=f23e52]: Tijelo radi skladno kad nađemo pravu ravnotežu snage i gipkosti. Ovi časovi su napravljeni baš za to!
+      - paragraph [ref=f23e53]: Za sve nivoe
+    - generic [ref=f23e54]:
+      - heading "Za početnice" [level=2] [ref=f23e55]
+      - paragraph [ref=f23e56]: Savršeno mjesto da započneš svoj put u pilatesu. Ovi osnovni časovi su napravljeni da poprave držanje, snagu i gipkost, sa posebnim naglaskom na formu, dah i tehniku. Počni ovdje!
+      - paragraph [ref=f23e57]: Za sve nivoe
+    - img "Za početnice" [ref=f23e59]
+  - generic [ref=f23e62]:
+    - heading "Šta dobijaš" [level=3] [ref=f23e63]
+    - paragraph [ref=f23e64]: Vjerujemo da ništa ne mijenja tijelo i um kao pilates. Sa godinama iskustva u podučavanju znamo šta je potrebno da se kod klijentica napravi održiva, trajna promjena.
+    - list [ref=f23e65]:
+      - listitem [ref=f23e66]:
+        - generic [ref=f23e67]: "01"
+        - generic [ref=f23e68]: Oblikuje, izdužuje i jača cijelo tijelo
+      - listitem [ref=f23e69]:
+        - generic [ref=f23e70]: "02"
+        - generic [ref=f23e71]: Gradi snagu trbušnjaka
+      - listitem [ref=f23e72]:
+        - generic [ref=f23e73]: "03"
+        - generic [ref=f23e74]: Povećava gipkost i pokretljivost
+      - listitem [ref=f23e75]:
+        - generic [ref=f23e76]: "04"
+        - generic [ref=f23e77]: Popravlja držanje
+      - listitem [ref=f23e78]:
+        - generic [ref=f23e79]: "05"
+        - generic [ref=f23e80]: Pojačava svijest o tijelu
+      - listitem [ref=f23e81]:
+        - generic [ref=f23e82]: "06"
+        - generic [ref=f23e83]: Sprečava povrede
+      - listitem [ref=f23e84]:
+        - generic [ref=f23e85]: "07"
+        - generic [ref=f23e86]: Dostupno — treba ti samo prostirka i tvoje tijelo
+      - listitem [ref=f23e87]:
+        - generic [ref=f23e88]: "08"
+        - generic [ref=f23e89]: Smanjuje anksioznost
+  - generic [ref=f23e90]:
+    - heading "Utisci klijentica" [level=2] [ref=f23e91]
+    - generic [ref=f23e92]:
+      - button "Prethodni" [ref=f23e93] [cursor=pointer]: ‹
+      - generic [ref=f23e94]:
+        - paragraph [ref=f23e95]: „Časovi su mi najdraži dio dana. Energija je smirena, pozitivna i ohrabrujuća, pa vrijeme proleti — kao da vježbaš sa prijateljicom. Za samo tri mjeseca sam vidjela kako mi se tijelo, snaga i samopouzdanje mijenjaju, i napredujem svake sedmice. Posao me često vodi na put i zahvalna sam što praksu mogu održati i dok sam odsutna.”
+        - heading "Rose Yang" [level=3] [ref=f23e96]
+      - button "Sljedeći" [ref=f23e97] [cursor=pointer]: ›
+    - link "Virtuelni studio" [ref=f23e99] [cursor=pointer]:
+      - /url: /virtuelni-studio
+  - heading "@cloud9reformerpilates" [level=2] [ref=f23e101]
+  - contentinfo [ref=f23e103]:
+    - generic [ref=f23e104]:
+      - generic [ref=f23e106]:
+        - generic [ref=f23e109]: CLOUD
+        - generic [ref=f23e117]: REFORMER PILATES
+      - navigation [ref=f23e118]:
+        - link "Početna" [ref=f23e119] [cursor=pointer]:
+          - /url: /
+        - link "Probni čas" [ref=f23e120] [cursor=pointer]:
+          - /url: /#kontakt
+        - link "O nama" [ref=f23e121] [cursor=pointer]:
+          - /url: /o-nama
+        - link "Upoznaj nas" [ref=f23e122] [cursor=pointer]:
+          - /url: /upoznaj-nas
+        - link "Virtuelni studio" [ref=f23e123] [cursor=pointer]:
+          - /url: /virtuelni-studio
+        - link "Termini uživo" [ref=f23e124] [cursor=pointer]:
+          - /url: /#termini
+        - link "Tvoj nalog" [ref=f23e125] [cursor=pointer]:
+          - /url: /virtuelni-studio
+        - link "Kontakt" [ref=f23e126] [cursor=pointer]:
+          - /url: /#kontakt
+      - generic [ref=f23e127]:
+        - heading "Prijavi se na novosti" [level=4] [ref=f23e128]
+        - generic [ref=f23e129]:
+          - textbox "Ime" [ref=f23e130]
+          - textbox "Email adresa" [ref=f23e131]
+          - button "Prijavi se" [ref=f23e132] [cursor=pointer]
+    - paragraph [ref=f23e134]: © 2026 CLOUD 9 REFORMER PILATES

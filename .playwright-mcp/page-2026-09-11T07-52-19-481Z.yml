@@ -1,0 +1,136 @@
+- generic [active] [ref=f5e1]:
+  - banner [ref=f5e2]:
+    - navigation [ref=f5e3]:
+      - link "About" [ref=f5e4] [cursor=pointer]:
+        - /url: "#"
+      - link "Meet the Founder" [ref=f5e5] [cursor=pointer]:
+        - /url: "#"
+    - navigation [ref=f5e6]:
+      - link [ref=f5e7] [cursor=pointer]:
+        - /url: "#"
+    - navigation [ref=f5e9]:
+      - link "Virtual Studio" [ref=f5e10] [cursor=pointer]:
+        - /url: "#"
+      - link "Live Classes" [ref=f5e11] [cursor=pointer]:
+        - /url: "#"
+  - link "Start your trial" [ref=f5e12] [cursor=pointer]:
+    - /url: "#"
+  - generic [ref=f5e13]: YOUR IMAGE
+  - generic [ref=f5e16]:
+    - heading "Breathe Align Restore" [level=2] [ref=f5e17]
+    - heading "A studio practice built on precision, patience and the slow work of a body that lasts" [level=1] [ref=f5e18]
+    - link "Explore" [ref=f5e19] [cursor=pointer]:
+      - /url: "#"
+  - generic [ref=f5e21]:
+    - generic [ref=f5e22]:
+      - heading "The Online Studio to move your body and quiet your mind" [level=2] [ref=f5e23]
+      - link "Start your trial" [ref=f5e24] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=f5e25]:
+      - list [ref=f5e26]:
+        - listitem [ref=f5e27]: + On demand library of classes
+        - listitem [ref=f5e28]: + Monthly challenges
+        - listitem [ref=f5e29]: + Live classes each month
+        - listitem [ref=f5e30]: + New classes every month
+        - listitem [ref=f5e31]: + 7 day free trial
+      - link "Start your trial" [ref=f5e32] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=f5e33]: YOUR IMAGE
+  - generic [ref=f5e36]:
+    - generic [ref=f5e37]:
+      - generic [ref=f5e38]:
+        - heading "Practise anytime, anywhere" [level=3] [ref=f5e39]
+        - paragraph [ref=f5e40]: Every class is on demand, so the studio travels with you — a hotel room, a living room floor, twenty minutes before the day starts.
+      - generic [ref=f5e41]:
+        - heading "Short and effective sessions" [level=3] [ref=f5e42]
+        - paragraph [ref=f5e43]: Sequences built to change how you move, not to fill an hour. Strength, mobility and control in the time you actually have.
+    - generic [ref=f5e44]:
+      - generic [ref=f5e45]: YOUR VIDEO
+      - link "Explore library" [ref=f5e47] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=f5e48]:
+      - generic [ref=f5e49]:
+        - heading "New classes every month" [level=3] [ref=f5e50]
+        - paragraph [ref=f5e51]: The library grows with you. Fresh sequences arrive monthly so the practice keeps moving forward instead of looping.
+      - generic [ref=f5e52]:
+        - heading "Monthly challenges" [level=3] [ref=f5e53]
+        - paragraph [ref=f5e54]: A structured month designed to take your practice one level up, with something to work toward and a reason to keep showing up.
+  - generic [ref=f5e56]:
+    - generic [ref=f5e57]: YOUR IMAGE
+    - generic [ref=f5e59]:
+      - heading "Meet the founder" [level=4] [ref=f5e60]
+      - generic [ref=f5e61]:
+        - generic [ref=f5e62]:
+          - paragraph [ref=f5e63]: The studio started as a place to step out of the noise and back into the body — somewhere the work is slow, deliberate and entirely yours.
+          - link "About the studio" [ref=f5e64] [cursor=pointer]:
+            - /url: "#"
+        - paragraph [ref=f5e66]: "After years of teaching, the method comes down to one idea: sustainable strength. You leave a class feeling capable, not emptied out."
+      - generic [ref=f5e67]: YOUR IMAGE
+  - generic [ref=f5e69]:
+    - heading "Client testimonials" [level=2] [ref=f5e70]
+    - generic [ref=f5e71]:
+      - button "Previous" [ref=f5e72] [cursor=pointer]: ‹
+      - generic [ref=f5e73]:
+        - paragraph [ref=f5e74]: "\"The perfect mix of classical and contemporary. Every class is unique, with extra focus on form and alignment — I've been at it for years and it still surprises me.\""
+        - heading "Client name" [level=3] [ref=f5e75]
+      - button "Next" [ref=f5e76] [cursor=pointer]: ›
+    - link "Virtual studio" [ref=f5e78] [cursor=pointer]:
+      - /url: "#"
+  - generic [ref=f5e80]:
+    - generic [ref=f5e81]:
+      - paragraph [ref=f5e82] [cursor=pointer]: Sculpt & Tone
+      - paragraph [ref=f5e83] [cursor=pointer]: Sculpt & Stretch
+      - paragraph [ref=f5e84] [cursor=pointer]: For Beginners
+    - generic [ref=f5e86]:
+      - generic [ref=f5e87]: YOUR VIDEO
+      - paragraph [ref=f5e89]: Designed to strengthen, sculpt and align. The slow burn of pilates, and muscles you did not know you had. Suitable for all levels.
+  - generic [ref=f5e90]:
+    - link [ref=f5e91] [cursor=pointer]:
+      - /url: "#"
+      - heading "@yourhandle" [level=2] [ref=f5e92]
+    - generic [ref=f5e93]:
+      - link "YOUR IMAGE" [ref=f5e94] [cursor=pointer]:
+        - /url: "#"
+      - link "YOUR IMAGE" [ref=f5e96] [cursor=pointer]:
+        - /url: "#"
+      - link "YOUR IMAGE" [ref=f5e98] [cursor=pointer]:
+        - /url: "#"
+      - link "YOUR IMAGE" [ref=f5e100] [cursor=pointer]:
+        - /url: "#"
+      - link "YOUR IMAGE" [ref=f5e102] [cursor=pointer]:
+        - /url: "#"
+      - link "YOUR IMAGE" [ref=f5e104] [cursor=pointer]:
+        - /url: "#"
+      - link "YOUR IMAGE" [ref=f5e106] [cursor=pointer]:
+        - /url: "#"
+      - link "YOUR IMAGE" [ref=f5e108] [cursor=pointer]:
+        - /url: "#"
+  - contentinfo [ref=f5e110]:
+    - generic [ref=f5e111]:
+      - generic [ref=f5e114]:
+        - link "Home" [ref=f5e115] [cursor=pointer]:
+          - /url: "#"
+        - link "Start trial" [ref=f5e116] [cursor=pointer]:
+          - /url: "#"
+        - link "About" [ref=f5e117] [cursor=pointer]:
+          - /url: "#"
+        - link "Meet the founder" [ref=f5e118] [cursor=pointer]:
+          - /url: "#"
+        - link "Virtual studio" [ref=f5e119] [cursor=pointer]:
+          - /url: "#"
+        - link "Live classes" [ref=f5e120] [cursor=pointer]:
+          - /url: "#"
+        - link "Your account" [ref=f5e121] [cursor=pointer]:
+          - /url: "#"
+        - link "Contact" [ref=f5e122] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=f5e123]:
+        - heading "Subscribe to my newsletter" [level=4] [ref=f5e124]
+        - generic [ref=f5e125]:
+          - textbox "First name" [ref=f5e126]
+          - textbox "Email address" [ref=f5e127]
+          - button "Subscribe" [ref=f5e128] [cursor=pointer]
+    - paragraph [ref=f5e130]:
+      - text: © Copyright 2026 Studio Name.
+      - link "Website by —" [ref=f5e131] [cursor=pointer]:
+        - /url: "#"

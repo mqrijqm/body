@@ -1,0 +1,115 @@
+- generic [active] [ref=f20e1]:
+  - banner [ref=f20e2]:
+    - navigation "Glavna navigacija" [ref=f20e3]:
+      - link "O nama" [ref=f20e4] [cursor=pointer]:
+        - /url: /o-nama
+      - link "Studio" [ref=f20e5] [cursor=pointer]:
+        - /url: /studio
+    - link "Cloud 9 Reformer Pilates — početna" [ref=f20e6] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f20e7]: CLOUD
+    - navigation "Glavna navigacija" [ref=f20e14]:
+      - link "Raspored" [ref=f20e15] [cursor=pointer]:
+        - /url: /raspored
+      - link "Cijene" [ref=f20e16] [cursor=pointer]:
+        - /url: /cijene
+      - link "Rezerviši" [ref=f20e17] [cursor=pointer]:
+        - /url: /nalog
+  - main [ref=f20e18]:
+    - generic [ref=f20e19]:
+      - generic [ref=f20e20]:
+        - paragraph [ref=f20e21]: Raspored
+        - heading [level=1] [ref=f20e22]:
+          - text: Isti reformer,
+          - emphasis [ref=f20e23]: četiri načina.
+        - paragraph [ref=f20e24]: Svi časovi traju 50 minuta i vodi ih instruktor. Razlika je u tome koliko prostora imaš za sebe.
+      - list [ref=f20e26]:
+        - listitem [ref=f20e27]:
+          - generic [ref=f20e28]: "01"
+          - heading "Grupni reformer" [level=3] [ref=f20e29]
+          - 'link "Rezerviši: Grupni reformer" [ref=f20e30] [cursor=pointer]':
+            - /url: /nalog
+            - generic [ref=f20e31]: ↗
+          - generic:
+            - paragraph [ref=f20e32]: Vođen čas u maloj grupi, sa ritmom koji drži tempo i instruktorom koji stigne do svakoga.
+            - generic [ref=f20e33]: Do 6 osoba · 50 min
+        - listitem [ref=f20e34]:
+          - generic [ref=f20e35]: "02"
+          - heading "Individualni trening" [level=3] [ref=f20e36]
+          - 'link "Rezerviši: Individualni trening" [ref=f20e37] [cursor=pointer]':
+            - /url: /nalog
+            - generic [ref=f20e38]: ↗
+          - generic:
+            - paragraph [ref=f20e39]: Termin samo za tebe — program se gradi oko tvog tijela, rasporeda i cilja.
+            - generic [ref=f20e40]: 1 na 1 · 50 min
+        - listitem [ref=f20e41]:
+          - generic [ref=f20e42]: "03"
+          - heading "Duo trening" [level=3] [ref=f20e43]
+          - 'link "Rezerviši: Duo trening" [ref=f20e44] [cursor=pointer]':
+            - /url: /nalog
+            - generic [ref=f20e45]: ↗
+          - generic:
+            - paragraph [ref=f20e46]: Isti fokus kao individualni, ali u dvoje. Za prijateljice, partnere, sestre.
+            - generic [ref=f20e47]: 2 osobe · 50 min
+        - listitem [ref=f20e48]:
+          - generic [ref=f20e49]: "04"
+          - heading "Intro čas" [level=3] [ref=f20e50]
+          - 'link "Rezerviši: Intro čas" [ref=f20e51] [cursor=pointer]':
+            - /url: /nalog
+            - generic [ref=f20e52]: ↗
+          - generic:
+            - paragraph [ref=f20e53]: "Prvi susret sa reformerom: oprema, disanje, osnovni pokreti i sve što te zanima."
+            - generic [ref=f20e54]: Prvi put · 50 min
+      - region [ref=f20e55]:
+        - generic [ref=f20e56]:
+          - generic [ref=f20e57]:
+            - paragraph [ref=f20e58]: Sedmični raspored
+            - heading [level=2] [ref=f20e59]:
+              - text: Termini koji se
+              - emphasis [ref=f20e60]: ponavljaju.
+          - paragraph [ref=f20e61]: Termin se rezerviše unaprijed. Otkazivanje je moguće najkasnije 8 sati prije časa.
+        - generic [ref=f20e62]:
+          - paragraph [ref=f20e63]: Sedmični raspored se upravo slaže.
+          - paragraph [ref=f20e64]: Termini još nisu fiksirani, pa ih ne objavljujemo da niko ne dođe na čas koji ne postoji. Javi nam koji dani i sati ti odgovaraju i dobijaš prvi slobodan termin.
+          - link "Pitaj za termin" [ref=f20e65] [cursor=pointer]:
+            - /url: /kontakt
+            - text: Pitaj za termin
+            - generic [ref=f20e66]: ↗
+      - generic [ref=f20e67]:
+        - heading [level=2] [ref=f20e68]:
+          - text: Nađimo termin
+          - emphasis [ref=f20e69]: koji ti leži.
+        - link "Rezerviši termin" [ref=f20e70] [cursor=pointer]:
+          - /url: /nalog
+          - text: Rezerviši termin
+          - generic [ref=f20e71]: ↗
+  - contentinfo [ref=f20e72]:
+    - generic [ref=f20e73]:
+      - generic [ref=f20e74]:
+        - generic [ref=f20e77]: CLOUD
+        - generic [ref=f20e85]: REFORMER PILATES
+      - navigation "Navigacija u podnožju" [ref=f20e86]:
+        - link "O nama" [ref=f20e87] [cursor=pointer]:
+          - /url: /o-nama
+        - link "Studio" [ref=f20e88] [cursor=pointer]:
+          - /url: /studio
+        - link "Raspored" [ref=f20e89] [cursor=pointer]:
+          - /url: /raspored
+        - link "Cijene" [ref=f20e90] [cursor=pointer]:
+          - /url: /cijene
+        - link "Pitanja" [ref=f20e91] [cursor=pointer]:
+          - /url: /pitanja
+        - link "Nalog" [ref=f20e92] [cursor=pointer]:
+          - /url: /nalog
+        - link "Kontakt" [ref=f20e93] [cursor=pointer]:
+          - /url: /kontakt
+      - generic [ref=f20e94]:
+        - term [ref=f20e95]: Studio
+        - definition [ref=f20e96]: Adresa uskoro
+        - term [ref=f20e97]: Kontakt
+        - definition [ref=f20e98]: Broj uskoro
+    - generic [ref=f20e99]:
+      - paragraph [ref=f20e100]: © 2026 Cloud 9 Reformer Pilates
+      - link "Nazad na početnu ↑" [ref=f20e101] [cursor=pointer]:
+        - /url: /
+  - alert [ref=f20e102]

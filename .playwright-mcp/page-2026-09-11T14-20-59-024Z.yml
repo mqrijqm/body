@@ -1,0 +1,90 @@
+- generic [active] [ref=f24e1]:
+  - generic [ref=f24e2]:
+    - banner [ref=f24e3]:
+      - navigation [ref=f24e4]:
+        - link "O nama" [ref=f24e5] [cursor=pointer]:
+          - /url: /o-nama
+        - link "Upoznaj nas" [ref=f24e6] [cursor=pointer]:
+          - /url: /upoznaj-nas
+      - link "Cloud 9 Reformer Pilates — početna" [ref=f24e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f24e8]: CLOUD
+      - navigation [ref=f24e15]:
+        - link "Virtuelni studio" [ref=f24e16] [cursor=pointer]:
+          - /url: /virtuelni-studio
+        - link "Termini uživo" [ref=f24e17] [cursor=pointer]:
+          - /url: /#termini
+    - generic [ref=f24e19]:
+      - heading "„Cloud 9 smo napravile kao mjesto gdje se bježi od pritiska svakodnevice i vraća sebi najboljoj, uz rezultate koji usput mijenjaju život”" [level=1] [ref=f24e20]
+      - link "Naša priča" [ref=f24e21] [cursor=pointer]:
+        - /url: "#prica"
+    - generic [ref=f24e22]:
+      - heading "Naš pristup zdravlju je da se naprave nevjerovatni ali održivi rezultati, poslije kojih se osjećaš snažno i na spravi i van nje." [level=2] [ref=f24e23]
+      - generic [ref=f24e24]:
+        - paragraph [ref=f24e25]: Sa godinama iskustva u podučavanju i privilegijom da smo radile sa preko sto različitih klijentica, naučile smo šta to pravi veliku promjenu i trajne rezultate u tijelu. Nikad nam ne prestaje biti zadivljujuće koliko su naša tijela zapravo sposobna — uz pravi trening možeš postići bilo šta.
+        - link "Virtuelni studio" [ref=f24e26] [cursor=pointer]:
+          - /url: /virtuelni-studio
+    - generic [ref=f24e29]:
+      - heading "Naša priča" [level=3] [ref=f24e30]
+      - paragraph [ref=f24e31]: Strast prema pilatesu počela je prije više od osam godina, u radu u klinici kao sportski terapeut. Vidjeti iz prve ruke koliko brzo se klijenti oporavljaju od povreda kroz pilates bio je razlog da se i same obučimo za instruktorice. Nikad se nismo osvrnule.
+      - paragraph [ref=f24e32]: Nakon što smo se zaglavile u krugu pretreniranosti visokim intenzitetom — iscrpljene, bez rezultata koje smo željele — konačno smo našle metod koji nismo samo zavoljele, nego nas je doveo do mjesta gdje smo osjetile pravu snagu centra i vezu tijela i uma. Mnoge naše klijentice su krenule iz istog obrasca, pa nam je misija da proširimo rezultate koje dosljedna pilates praksa može donijeti.
+      - paragraph [ref=f24e33]: Naši časovi spajaju preko hiljadu sati podučavanja i učenja u metod koji oblikuje, izdužuje i daje tonus. Sa fokusom na dah, da se veza produbi i da te preobrazi u najbolju verziju tvog već nevjerovatnog sebe.
+      - link "Javi se" [ref=f24e34] [cursor=pointer]:
+        - /url: "#kontakt"
+    - generic [ref=f24e35]:
+      - img "Vježba na reformeru" [ref=f24e37]
+      - generic [ref=f24e38]:
+        - heading "Virtuelni studio koji mijenja tvoje tijelo i um" [level=3] [ref=f24e39]: Virtuelni studio koji mijenjatvoje tijelo i um
+        - paragraph [ref=f24e40]: Platforma je napravljena da oblikuje, jača i poravnava, i da te drži u ritmu vježbanja novim, zanimljivim treninzima svakog mjeseca.
+        - generic [ref=f24e41]:
+          - list [ref=f24e42]:
+            - listitem [ref=f24e43]: + Biblioteka časova na zahtjev
+            - listitem [ref=f24e44]: + Mjesečni izazovi
+            - listitem [ref=f24e45]: + Časovi uživo svakog mjeseca
+          - list [ref=f24e46]:
+            - listitem [ref=f24e47]: + Novi časovi svakog mjeseca
+            - listitem [ref=f24e48]: + Sedam dana besplatno
+        - paragraph [ref=f24e49]: 20 KM mjesečno / 200 KM godišnje
+        - link "Počni probni period" [ref=f24e50] [cursor=pointer]:
+          - /url: /virtuelni-studio
+    - generic [ref=f24e51]:
+      - heading "Utisci klijentica" [level=2] [ref=f24e52]
+      - generic [ref=f24e53]:
+        - button "Prethodni" [ref=f24e54] [cursor=pointer]: ‹
+        - generic [ref=f24e55]:
+          - paragraph [ref=f24e56]: „Časovi su mi najdraži dio dana. Energija je smirena, pozitivna i ohrabrujuća, pa vrijeme proleti — kao da vježbaš sa prijateljicom. Za samo tri mjeseca sam vidjela kako mi se tijelo, snaga i samopouzdanje mijenjaju, i napredujem svake sedmice. Posao me često vodi na put i zahvalna sam što praksu mogu održati i dok sam odsutna.”
+          - heading "Rose Yang" [level=3] [ref=f24e57]
+        - button "Sljedeći" [ref=f24e58] [cursor=pointer]: ›
+      - link "Virtuelni studio" [ref=f24e60] [cursor=pointer]:
+        - /url: /virtuelni-studio
+    - heading "@cloud9reformerpilates" [level=2] [ref=f24e62]
+    - contentinfo [ref=f24e64]:
+      - generic [ref=f24e65]:
+        - generic [ref=f24e67]:
+          - generic [ref=f24e70]: CLOUD
+          - generic [ref=f24e78]: REFORMER PILATES
+        - navigation [ref=f24e79]:
+          - link "Početna" [ref=f24e80] [cursor=pointer]:
+            - /url: /
+          - link "Probni čas" [ref=f24e81] [cursor=pointer]:
+            - /url: /#kontakt
+          - link "O nama" [ref=f24e82] [cursor=pointer]:
+            - /url: /o-nama
+          - link "Upoznaj nas" [ref=f24e83] [cursor=pointer]:
+            - /url: /upoznaj-nas
+          - link "Virtuelni studio" [ref=f24e84] [cursor=pointer]:
+            - /url: /virtuelni-studio
+          - link "Termini uživo" [ref=f24e85] [cursor=pointer]:
+            - /url: /#termini
+          - link "Tvoj nalog" [ref=f24e86] [cursor=pointer]:
+            - /url: /virtuelni-studio
+          - link "Kontakt" [ref=f24e87] [cursor=pointer]:
+            - /url: /#kontakt
+        - generic [ref=f24e88]:
+          - heading "Prijavi se na novosti" [level=4] [ref=f24e89]
+          - generic [ref=f24e90]:
+            - textbox "Ime" [ref=f24e91]
+            - textbox "Email adresa" [ref=f24e92]
+            - button "Prijavi se" [ref=f24e93] [cursor=pointer]
+      - paragraph [ref=f24e95]: © 2026 CLOUD 9 REFORMER PILATES
+  - alert [ref=f24e96]

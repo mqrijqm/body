@@ -1,0 +1,116 @@
+- generic [active] [ref=f6e1]:
+  - generic [ref=f6e2]:
+    - banner [ref=f6e3]:
+      - navigation [ref=f6e4]:
+        - link "Studio" [ref=f6e5] [cursor=pointer]:
+          - /url: "#studio"
+        - link "O nama" [ref=f6e6] [cursor=pointer]:
+          - /url: "#o-nama"
+      - link "Cloud 9 Reformer Pilates" [ref=f6e7] [cursor=pointer]:
+        - /url: "#pocetna"
+        - generic [ref=f6e8]: CLOUD
+      - navigation [ref=f6e15]:
+        - link "Termini" [ref=f6e16] [cursor=pointer]:
+          - /url: "#termini"
+        - link "Kontakt" [ref=f6e17] [cursor=pointer]:
+          - /url: "#kontakt"
+    - generic [ref=f6e19]:
+      - generic [ref=f6e22]: CLOUD
+      - generic [ref=f6e30]: REFORMER PILATES
+    - generic [ref=f6e32]:
+      - heading "DišiPoravnajOjačaj" [level=2] [ref=f6e33]:
+        - text: DišiPoravnaj
+        - generic [ref=f6e34]: Ojačaj
+      - heading "Reformer studio u kojem se radi sporo, precizno i do kraja" [level=1] [ref=f6e35]
+      - link "Pogledaj" [ref=f6e36] [cursor=pointer]:
+        - /url: "#studio"
+    - generic [ref=f6e38]:
+      - generic [ref=f6e39]:
+        - heading "Cloud 9 studio da tijelo ostane tvoje" [level=2] [ref=f6e40]: Cloud 9 studioda tijelo ostane tvoje
+        - link "Zakaži termin" [ref=f6e41] [cursor=pointer]:
+          - /url: "#kontakt"
+      - generic [ref=f6e42]:
+        - list [ref=f6e43]:
+          - listitem [ref=f6e44]: + Grupe do šest osoba
+          - listitem [ref=f6e45]: + Individualni i duo treninzi
+          - listitem [ref=f6e46]: + Intro čas za početnice
+          - listitem [ref=f6e47]: + Termini ujutro i uveče
+          - listitem [ref=f6e48]: + Prvi čas bez obaveze
+        - link "Vidi termine" [ref=f6e49] [cursor=pointer]:
+          - /url: "#termini"
+      - img "Vježba na reformeru sa trakama za noge" [ref=f6e51]
+    - generic [ref=f6e53]:
+      - generic [ref=f6e54]:
+        - generic [ref=f6e55]:
+          - heading "Najviše šest u grupi" [level=3] [ref=f6e56]
+          - paragraph [ref=f6e57]: Toliko stane na sprave i toliko instruktor stigne da isprati. Nema reda za reformer i nema časa u kojem te niko ne vidi.
+        - generic [ref=f6e58]:
+          - heading "Opruge po tvom tijelu" [level=3] [ref=f6e59]
+          - paragraph [ref=f6e60]: Otpor se podešava svakoga časa iznova. Isti pokret radi i onaj ko prvi put legne na spravu i onaj ko se vraća poslije povrede.
+      - generic [ref=f6e61]:
+        - img "Vježba u uporu na reformeru" [ref=f6e62]
+        - link "Vidi termine" [ref=f6e63] [cursor=pointer]:
+          - /url: "#termini"
+      - generic [ref=f6e64]:
+        - generic [ref=f6e65]:
+          - heading "Pedeset minuta, bez žurbe" [level=3] [ref=f6e66]
+          - paragraph [ref=f6e67]: Zagrijavanje, glavni blok, izduživanje. Ne preskačemo kraj da bismo ubacili još jednu vježbu.
+        - generic [ref=f6e68]:
+          - heading "Napredak koji se osjeti" [level=3] [ref=f6e69]
+          - paragraph [ref=f6e70]: Poslije šestak sedmica svi kažu isto — ravnija leđa, jači centar i san koji konačno drži do jutra.
+    - generic [ref=f6e72]:
+      - img "Izduživanje bočne linije tijela na reformeru" [ref=f6e74]
+      - generic [ref=f6e75]:
+        - heading "O studiju" [level=2] [ref=f6e76]
+        - generic [ref=f6e77]:
+          - generic [ref=f6e78]:
+            - paragraph [ref=f6e79]: "Cloud 9 je nastao iz jednostavne ideje: da vježbanje ne mora biti kazna, nego način da tijelo ostane tvoje i za dvadeset godina."
+            - link "Javi se" [ref=f6e80] [cursor=pointer]:
+              - /url: "#kontakt"
+          - paragraph [ref=f6e82]: Bez ogledala u koja se bulji i bez trke za brojem ponavljanja. Ovdje se broji tačnost pokreta, a rezultat dolazi sam.
+        - img "Iskorak na reformeru" [ref=f6e84]
+    - generic [ref=f6e85]:
+      - heading "Šta kažu klijentice" [level=2] [ref=f6e86]
+      - generic [ref=f6e87]:
+        - button "Prethodni" [ref=f6e88] [cursor=pointer]: ‹
+        - generic [ref=f6e89]:
+          - paragraph [ref=f6e90]: „Došla sam poslije godinu dana sjedenja za stolom i bola u krstima koji nije prolazio. Poslije dva mjeseca sam prvi put ustala ujutro bez razmišljanja o leđima.”
+          - heading "Klijentica Cloud 9" [level=3] [ref=f6e91]
+        - button "Sljedeći" [ref=f6e92] [cursor=pointer]: ›
+      - link "Zakaži termin" [ref=f6e94] [cursor=pointer]:
+        - /url: "#kontakt"
+    - generic [ref=f6e96]:
+      - tablist "Vrste termina" [ref=f6e97]:
+        - tab "Grupni reformer" [selected] [ref=f6e98] [cursor=pointer]
+        - tab "Individualni trening" [ref=f6e99] [cursor=pointer]
+        - tab "Intro čas" [ref=f6e100] [cursor=pointer]
+      - tabpanel [ref=f6e102]:
+        - img "Grupni reformer" [ref=f6e103]
+        - paragraph [ref=f6e104]: Vođen čas u maloj grupi, sa ritmom koji drži tempo. Za sve nivoe — otpor se podešava po osobi, ne po grupi.
+    - heading "@cloud9reformerpilates" [level=2] [ref=f6e106]
+    - contentinfo [ref=f6e108]:
+      - generic [ref=f6e109]:
+        - generic [ref=f6e111]:
+          - generic [ref=f6e114]: CLOUD
+          - generic [ref=f6e122]: REFORMER PILATES
+        - navigation [ref=f6e123]:
+          - link "Početna" [ref=f6e124] [cursor=pointer]:
+            - /url: "#pocetna"
+          - link "Studio" [ref=f6e125] [cursor=pointer]:
+            - /url: "#studio"
+          - link "O nama" [ref=f6e126] [cursor=pointer]:
+            - /url: "#o-nama"
+          - link "Termini" [ref=f6e127] [cursor=pointer]:
+            - /url: "#termini"
+          - link "Kontakt" [ref=f6e128] [cursor=pointer]:
+            - /url: "#kontakt"
+          - link "Cjenovnik" [ref=f6e129] [cursor=pointer]:
+            - /url: "#termini"
+        - generic [ref=f6e130]:
+          - heading "Prijavi se na novosti" [level=4] [ref=f6e131]
+          - generic [ref=f6e132]:
+            - textbox "Ime" [ref=f6e133]
+            - textbox "Email adresa" [ref=f6e134]
+            - button "Prijavi se" [ref=f6e135] [cursor=pointer]
+      - paragraph [ref=f6e137]: © 2026 CLOUD 9 REFORMER PILATES
+  - alert [ref=f6e138]

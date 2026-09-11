@@ -1,0 +1,581 @@
+- generic [active] [ref=f17e1]:
+  - banner [ref=f17e2]:
+    - navigation [ref=f17e3]:
+      - link "About" [ref=f17e4] [cursor=pointer]:
+        - /url: /about
+      - link "Meet Harriet" [ref=f17e5] [cursor=pointer]:
+        - /url: /meet-harriet
+    - navigation [ref=f17e6]:
+      - link [ref=f17e7] [cursor=pointer]:
+        - /url: /
+    - navigation [ref=f17e8]:
+      - link "Virtual Studio" [ref=f17e9] [cursor=pointer]:
+        - /url: /virtual-studio
+      - link "Live Classes" [ref=f17e10] [cursor=pointer]:
+        - /url: /live-classes
+  - generic:
+    - navigation:
+      - generic:
+        - link:
+          - /url: /
+        - link "Home":
+          - /url: /
+        - link "Start Your Trial":
+          - /url: /start-trial
+        - link "About":
+          - /url: /about
+        - link "Meet Harriet":
+          - /url: /meet-harriet
+        - link "Virtual Studio":
+          - /url: /virtual-studio
+        - link "Live Classes":
+          - /url: /live-classes
+        - link "Contact":
+          - /url: /contact
+  - generic [ref=f17e16]:
+    - heading "Discover the Virtual Studio library" [level=1] [ref=f17e17]
+    - paragraph [ref=f17e18]: Browse all of my on demand classes, available with a monthly or annual membership
+    - link "Explore" [ref=f17e19] [cursor=pointer]:
+      - /url: "#explore"
+  - iframe [ref=f17e21]:
+    - generic [ref=f18e4]:
+      - button "Login" [ref=f18e8] [cursor=pointer]
+      - generic [ref=f18e9]:
+        - generic [ref=f18e11]:
+          - generic [ref=f18e12]:
+            - button " Filters" [ref=f18e14] [cursor=pointer]:
+              - generic [ref=f18e15]: 
+              - generic [ref=f18e16]: Filters
+            - textbox "Search" [ref=f18e23]
+          - text:   
+        - generic [ref=f18e24]:
+          - generic [ref=f18e25]:
+            - heading "Prenatal Program 2nd Trimester" [level=3] [ref=f18e26]
+            - link "View All" [ref=f18e27] [cursor=pointer]:
+              - /url: /iframe/pilates-with-harriet/videos/MlcVDt90ZvM54pOQL1vH
+          - generic [ref=f18e28]:
+            - generic [ref=f18e29] [cursor=pointer]
+            - generic [ref=f18e34]:
+              - link "20:00 Total Body Sculpt Thursday, May 28" [ref=f18e37] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/MQp2mBw32MB1pNNGrZ9M
+                - generic [ref=f18e41]:
+                  - generic [ref=f18e42]: 20:00
+                  - generic [ref=f18e50]:
+                    - generic [ref=f18e51]: Total Body Sculpt
+                    - paragraph [ref=f18e52]: Thursday, May 28
+              - link "20:00 Total Body Control Thursday, May 28" [ref=f18e55] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/5YznNIWniioMTpY6Bfwp
+                - generic [ref=f18e59]:
+                  - generic [ref=f18e60]: 20:00
+                  - generic [ref=f18e68]:
+                    - generic [ref=f18e69]: Total Body Control
+                    - paragraph [ref=f18e70]: Thursday, May 28
+              - link "15:00 Lower Body Strength Thursday, May 28" [ref=f18e73] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/Ps693JxqordscJECx3vL
+                - generic [ref=f18e77]:
+                  - generic [ref=f18e78]: 15:00
+                  - generic [ref=f18e86]:
+                    - generic [ref=f18e87]: Lower Body Strength
+                    - paragraph [ref=f18e88]: Thursday, May 28
+              - link "10:00 Stretch & Release Thursday, May 28" [ref=f18e91] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/rZWqiVPNK653kJXtZuGX
+                - generic [ref=f18e95]:
+                  - generic [ref=f18e96]: 10:00
+                  - generic [ref=f18e104]:
+                    - generic [ref=f18e105]: Stretch & Release
+                    - paragraph [ref=f18e106]: Thursday, May 28
+              - link [ref=f18e109] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/tjprxNJ43GGXeIFqGkZX
+                - generic [ref=f18e113]:
+                  - generic [ref=f18e114]: 20:00
+                  - generic [ref=f18e122]:
+                    - generic [ref=f18e123]: Full Body Strength
+                    - paragraph [ref=f18e124]: Thursday, May 28
+            - generic [ref=f18e126] [cursor=pointer]
+        - generic [ref=f18e130]:
+          - generic [ref=f18e131]:
+            - heading "Prenatal Program 3rd Trimester" [level=3] [ref=f18e132]
+            - link "View All" [ref=f18e133] [cursor=pointer]:
+              - /url: /iframe/pilates-with-harriet/videos/BTY5Cv1MGr9lfPj8kKGw
+          - generic [ref=f18e134]:
+            - generic [ref=f18e135] [cursor=pointer]
+            - generic [ref=f18e140]:
+              - link "20:00 Full Body Strength Thursday, May 28" [ref=f18e143] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/NGeM6Z0nNLpPC8QRWiTy
+                - generic [ref=f18e147]:
+                  - generic [ref=f18e148]: 20:00
+                  - generic [ref=f18e156]:
+                    - generic [ref=f18e157]: Full Body Strength
+                    - paragraph [ref=f18e158]: Thursday, May 28
+              - link "15:00 Lower Body Sculpt Thursday, May 28" [ref=f18e161] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/2nhIbMxIbhs8ipnFXmar
+                - generic [ref=f18e165]:
+                  - generic [ref=f18e166]: 15:00
+                  - generic [ref=f18e174]:
+                    - generic [ref=f18e175]: Lower Body Sculpt
+                    - paragraph [ref=f18e176]: Thursday, May 28
+              - link "15:00 Total Body Connection & Strength Thursday, May 28" [ref=f18e179] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/OYThclbAev2a02GLcliw
+                - generic [ref=f18e183]:
+                  - generic [ref=f18e184]: 15:00
+                  - generic [ref=f18e192]:
+                    - generic [ref=f18e193]: Total Body Connection & Strength
+                    - paragraph [ref=f18e194]: Thursday, May 28
+              - link "10:00 Stretch & Release Thursday, May 28" [ref=f18e197] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/z0bCYWRvl1IF7OMLy3r1
+                - generic [ref=f18e201]:
+                  - generic [ref=f18e202]: 10:00
+                  - generic [ref=f18e210]:
+                    - generic [ref=f18e211]: Stretch & Release
+                    - paragraph [ref=f18e212]: Thursday, May 28
+            - generic [ref=f18e213] [cursor=pointer]
+        - generic [ref=f18e217]:
+          - generic [ref=f18e218]:
+            - heading "PWH New Year Challenge" [level=3] [ref=f18e219]
+            - link "View All" [ref=f18e220] [cursor=pointer]:
+              - /url: /iframe/pilates-with-harriet/videos/j9lqw3F2jzya8eMO2d2u
+          - generic [ref=f18e221]:
+            - generic [ref=f18e222] [cursor=pointer]
+            - generic [ref=f18e227]:
+              - link "25:00 Day 1 Full Body Burn Thursday, Jan 1" [ref=f18e230] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/EOy7YYAhOi1Kp6ZBWjmE
+                - generic [ref=f18e234]:
+                  - generic [ref=f18e235]: 25:00
+                  - generic [ref=f18e243]:
+                    - generic [ref=f18e244]: Day 1 Full Body Burn
+                    - paragraph [ref=f18e245]: Thursday, Jan 1
+              - link "15:00 Day 2 Upper Body Strength Thursday, Jan 1" [ref=f18e248] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/UktC2TW5BJmR3qCi1Zsm
+                - generic [ref=f18e252]:
+                  - generic [ref=f18e253]: 15:00
+                  - generic [ref=f18e261]:
+                    - generic [ref=f18e262]: Day 2 Upper Body Strength
+                    - paragraph [ref=f18e263]: Thursday, Jan 1
+              - link "25:00 Day 3 Total Body Thursday, Jan 1" [ref=f18e266] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/ZVZwVw6d5HhPUvoge3xM
+                - generic [ref=f18e270]:
+                  - generic [ref=f18e271]: 25:00
+                  - generic [ref=f18e279]:
+                    - generic [ref=f18e280]: Day 3 Total Body
+                    - paragraph [ref=f18e281]: Thursday, Jan 1
+              - link "30:00 Day 4 Reformer On The Mat Thursday, Jan 1" [ref=f18e284] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/yVWUibZvBfMtDeR41pVv
+                - generic [ref=f18e288]:
+                  - generic [ref=f18e289]: 30:00
+                  - generic [ref=f18e297]:
+                    - generic [ref=f18e298]: Day 4 Reformer On The Mat
+                    - paragraph [ref=f18e299]: Thursday, Jan 1
+            - generic [ref=f18e300] [cursor=pointer]
+        - generic [ref=f18e304]:
+          - generic [ref=f18e305]:
+            - heading "PWH Challenge" [level=3] [ref=f18e306]
+            - link "View All" [ref=f18e307] [cursor=pointer]:
+              - /url: /iframe/pilates-with-harriet/videos/SGaKiI8hURIBQoU09QIc
+          - generic [ref=f18e308]:
+            - generic [ref=f18e309] [cursor=pointer]
+            - generic [ref=f18e314]:
+              - link "20:00 Day 1 Full Body Fire Wednesday, Sep 24" [ref=f18e317] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/UrzEakDPcN4AxLEk0fhk
+                - generic [ref=f18e321]:
+                  - generic [ref=f18e322]: 20:00
+                  - generic [ref=f18e330]:
+                    - generic [ref=f18e331]: Day 1 Full Body Fire
+                    - paragraph [ref=f18e332]: Wednesday, Sep 24
+              - link "15:00 Day 2 Arms & Abs Thursday, Sep 25" [ref=f18e335] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/dA5zp1uIEOq69EhRrvr3
+                - generic [ref=f18e339]:
+                  - generic [ref=f18e340]: 15:00
+                  - generic [ref=f18e348]:
+                    - generic [ref=f18e349]: Day 2 Arms & Abs
+                    - paragraph [ref=f18e350]: Thursday, Sep 25
+              - link "25:00 Day 3 Full Body Power Friday, Sep 26" [ref=f18e353] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/vT17yfqb9YJk20BwXvVE
+                - generic [ref=f18e357]:
+                  - generic [ref=f18e358]: 25:00
+                  - generic [ref=f18e366]:
+                    - generic [ref=f18e367]: Day 3 Full Body Power
+                    - paragraph [ref=f18e368]: Friday, Sep 26
+              - link "25:00 Day 4 Signature Full Body Monday, Sep 29" [ref=f18e371] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/oEtpCYVgMxSUcevFNQOT
+                - generic [ref=f18e375]:
+                  - generic [ref=f18e376]: 25:00
+                  - generic [ref=f18e384]:
+                    - generic [ref=f18e385]: Day 4 Signature Full Body
+                    - paragraph [ref=f18e386]: Monday, Sep 29
+              - link [ref=f18e389] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/mRbhXsY4ASkzOMjQrzMe
+                - generic [ref=f18e393]:
+                  - generic [ref=f18e394]: 15:00
+                  - generic [ref=f18e402]:
+                    - generic [ref=f18e403]: Day 5 Stretch & Release
+                    - paragraph [ref=f18e404]: Monday, Sep 29
+            - generic [ref=f18e405] [cursor=pointer]
+        - generic [ref=f18e409]:
+          - generic [ref=f18e410]:
+            - heading "Strength & Stamina Challenge" [level=3] [ref=f18e411]
+            - link "View All" [ref=f18e412] [cursor=pointer]:
+              - /url: /iframe/pilates-with-harriet/videos/5gDPsMJaw64A1blTrkCf
+          - generic [ref=f18e413]:
+            - generic [ref=f18e414] [cursor=pointer]
+            - generic [ref=f18e419]:
+              - link "30:00 Day 1 Full Body Strength" [ref=f18e422] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/NovyifoLNvKrh6i5spsq
+                - generic [ref=f18e426]:
+                  - generic [ref=f18e427]: 30:00
+                  - generic [ref=f18e435]: Day 1 Full Body Strength
+              - link "15:00 Day 2 Arms & Abs" [ref=f18e439] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/mHDsW2vQT6fURt1f5ZdS
+                - generic [ref=f18e443]:
+                  - generic [ref=f18e444]: 15:00
+                  - generic [ref=f18e452]: Day 2 Arms & Abs
+              - link "30:00 Day 3 Strength, Stamina & Stability" [ref=f18e456] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/zFPumCbIJxGRYrRF8lAb
+                - generic [ref=f18e460]:
+                  - generic [ref=f18e461]: 30:00
+                  - generic [ref=f18e469]: Day 3 Strength, Stamina & Stability
+              - link "30:00 Day 4 Reformer on the Mat" [ref=f18e473] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/iXczUKqVJRuxYBZT0QMB
+                - generic [ref=f18e477]:
+                  - generic [ref=f18e478]: 30:00
+                  - generic [ref=f18e486]: Day 4 Reformer on the Mat
+              - link [ref=f18e490] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/OwFFbkX8Jw0pdKOfC6sR
+                - generic [ref=f18e494]:
+                  - generic [ref=f18e495]: 20:00
+                  - generic [ref=f18e503]: Day 5 Soothing Stretch & Release
+            - generic [ref=f18e505] [cursor=pointer]
+        - generic [ref=f18e509]:
+          - generic [ref=f18e510]:
+            - heading "September Challenge" [level=3] [ref=f18e511]
+            - link "View All" [ref=f18e512] [cursor=pointer]:
+              - /url: /iframe/pilates-with-harriet/videos/OyvjmYHUKNMq8mqHR1q2
+          - generic [ref=f18e513]:
+            - generic [ref=f18e514] [cursor=pointer]
+            - generic [ref=f18e519]:
+              - link "35:00 Day 1 Full Body Burn" [ref=f18e522] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/Ajftf6yUjoRD0QUr8fEV
+                - generic [ref=f18e526]:
+                  - generic [ref=f18e527]: 35:00
+                  - generic [ref=f18e535]: Day 1 Full Body Burn
+              - link "15:00 Day 2 Abdominal Strength" [ref=f18e539] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/wEmSn8THwcE6OEGaIRHR
+                - generic [ref=f18e543]:
+                  - generic [ref=f18e544]: 15:00
+                  - generic [ref=f18e552]: Day 2 Abdominal Strength
+              - link "35:00 Day 3 Reformer on the Mat" [ref=f18e556] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/OM6X39MzuTbViGEHIh7r
+                - generic [ref=f18e560]:
+                  - generic [ref=f18e561]: 35:00
+                  - generic [ref=f18e569]: Day 3 Reformer on the Mat
+              - link "30:00 Day 4 Full Body Strength" [ref=f18e573] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/WYqsfZwIrTd0xEU9fUJ1
+                - generic [ref=f18e577]:
+                  - generic [ref=f18e578]: 30:00
+                  - generic [ref=f18e586]: Day 4 Full Body Strength
+              - link [ref=f18e590] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/Ws9oDNR6wzXaxEM9IniY
+                - generic [ref=f18e594]:
+                  - generic [ref=f18e595]: 20:00
+                  - generic [ref=f18e603]: Day 5 Stretch & Align
+            - generic [ref=f18e605] [cursor=pointer]
+        - generic [ref=f18e609]:
+          - generic [ref=f18e610]:
+            - heading "Strong Summer Challenge PT2" [level=3] [ref=f18e611]
+            - link "View All" [ref=f18e612] [cursor=pointer]:
+              - /url: /iframe/pilates-with-harriet/videos/tPalIMzB2LsbKYzZttk0
+          - generic [ref=f18e613]:
+            - generic [ref=f18e614] [cursor=pointer]
+            - generic [ref=f18e619]:
+              - link "40:00 Day 1 Full Body Power" [ref=f18e622] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/g2yCEtKKnhgcY1UvPp9X
+                - generic [ref=f18e626]:
+                  - generic [ref=f18e627]: 40:00
+                  - generic [ref=f18e635]: Day 1 Full Body Power
+              - link "15:00 Day 2 Abdominal Sculpt" [ref=f18e639] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/HrKgoYz1G8x3CqDI9PAO
+                - generic [ref=f18e643]:
+                  - generic [ref=f18e644]: 15:00
+                  - generic [ref=f18e652]: Day 2 Abdominal Sculpt
+              - link "25:00 Day 3 Total Body Burn" [ref=f18e656] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/SYPk3FjoltPESXs6IU7q
+                - generic [ref=f18e660]:
+                  - generic [ref=f18e661]: 25:00
+                  - generic [ref=f18e669]: Day 3 Total Body Burn
+              - link "30:00 Day 4 Total Body Burn" [ref=f18e673] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/26LwAdVKuQK6CnwqqhII
+                - generic [ref=f18e677]:
+                  - generic [ref=f18e678]: 30:00
+                  - generic [ref=f18e686]: Day 4 Total Body Burn
+              - link [ref=f18e690] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/nsTBsKGfuTeoAKDdKAIX
+                - generic [ref=f18e694]:
+                  - generic [ref=f18e695]: 25:00
+                  - generic [ref=f18e703]: Day 5 Stretch & Align
+            - generic [ref=f18e705] [cursor=pointer]
+        - generic [ref=f18e709]:
+          - generic [ref=f18e710]:
+            - heading "Strong Summer Challenge" [level=3] [ref=f18e711]
+            - link "View All" [ref=f18e712] [cursor=pointer]:
+              - /url: /iframe/pilates-with-harriet/videos/8vfW8fXXu46Mql33dJt9
+          - generic [ref=f18e713]:
+            - generic [ref=f18e714] [cursor=pointer]
+            - generic [ref=f18e719]:
+              - link "35:00 Day 1 Full Body Power" [ref=f18e722] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/IplahdH0L4NdwboFgvvA
+                - generic [ref=f18e726]:
+                  - generic [ref=f18e727]: 35:00
+                  - generic [ref=f18e735]: Day 1 Full Body Power
+              - link "20:00 Day 2 Abdominal Sculpt" [ref=f18e739] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/DtbLd5raD7FXIszZUNvS
+                - generic [ref=f18e743]:
+                  - generic [ref=f18e744]: 20:00
+                  - generic [ref=f18e752]: Day 2 Abdominal Sculpt
+              - link "30:00 Day 3 Full Body Burn" [ref=f18e756] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/lOlZ7SHFYZ60BGWb1EVH
+                - generic [ref=f18e760]:
+                  - generic [ref=f18e761]: 30:00
+                  - generic [ref=f18e769]: Day 3 Full Body Burn
+              - link "35:00 Day 4 Reformer on the Mat" [ref=f18e773] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/YyYMw7Uy7zH9hh43OPXL
+                - generic [ref=f18e777]:
+                  - generic [ref=f18e778]: 35:00
+                  - generic [ref=f18e786]: Day 4 Reformer on the Mat
+              - link [ref=f18e790] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/ld25GBoJzpTH8dL3eoOl
+                - generic [ref=f18e794]:
+                  - generic [ref=f18e795]: 20:00
+                  - generic [ref=f18e803]: Day 5 Stretch & Sculpt
+            - generic [ref=f18e805] [cursor=pointer]
+        - generic [ref=f18e809]:
+          - generic [ref=f18e810]:
+            - heading "The Reset Challenge" [level=3] [ref=f18e811]
+            - link "View All" [ref=f18e812] [cursor=pointer]:
+              - /url: /iframe/pilates-with-harriet/videos/bwM9jEgt19Pe3QnVbJ1K
+          - generic [ref=f18e813]:
+            - generic [ref=f18e814] [cursor=pointer]
+            - generic [ref=f18e819]:
+              - link "40:00 Day 1 Full Body Sculpt" [ref=f18e822] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/oyZX85xsoXX7rEZbA5to
+                - generic [ref=f18e826]:
+                  - generic [ref=f18e827]: 40:00
+                  - generic [ref=f18e835]: Day 1 Full Body Sculpt
+              - link "30:00 Day 2 Full Body" [ref=f18e839] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/qe17DuNgijGo2zanFqIw
+                - generic [ref=f18e843]:
+                  - generic [ref=f18e844]: 30:00
+                  - generic [ref=f18e852]: Day 2 Full Body
+              - link "15:00 Day 3 Abdominal burn" [ref=f18e856] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/NupkpWm2mYT0Ify8obnV
+                - generic [ref=f18e860]:
+                  - generic [ref=f18e861]: 15:00
+                  - generic [ref=f18e869]: Day 3 Abdominal burn
+              - link "30:00 Day 4 Full Body" [ref=f18e873] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/6kQoRe4tEHgmpsPITC2B
+                - generic [ref=f18e877]:
+                  - generic [ref=f18e878]: 30:00
+                  - generic [ref=f18e886]: Day 4 Full Body
+              - link [ref=f18e890] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/MvLQHodjb0pU2W8illi5
+                - generic [ref=f18e894]:
+                  - generic [ref=f18e895]: 20:00
+                  - generic [ref=f18e903]: Day 5 Postural Strength & Stretch
+            - generic [ref=f18e905] [cursor=pointer]
+        - generic [ref=f18e909]:
+          - generic [ref=f18e910]:
+            - heading "Strong in 7 Challenge" [level=3] [ref=f18e911]
+            - link "View All" [ref=f18e912] [cursor=pointer]:
+              - /url: /iframe/pilates-with-harriet/videos/Mhnl5nthTOO17JmigS7h
+          - generic [ref=f18e913]:
+            - generic [ref=f18e914] [cursor=pointer]
+            - generic [ref=f18e919]:
+              - link "30:00 Day 1 Full Body Sculpt" [ref=f18e922] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/OXTkPBxNCYYHyo3kAMSx
+                - generic [ref=f18e926]:
+                  - generic [ref=f18e927]: 30:00
+                  - generic [ref=f18e935]: Day 1 Full Body Sculpt
+              - link "25:00 Day 2 Glutes & Abs" [ref=f18e939] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/L5l6pLm9Ojm5tCThdPye
+                - generic [ref=f18e943]:
+                  - generic [ref=f18e944]: 25:00
+                  - generic [ref=f18e952]: Day 2 Glutes & Abs
+              - link "30:00 Day 3 Full Body Sculpt" [ref=f18e956] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/JiSO8bhpS8n75niomsku
+                - generic [ref=f18e960]:
+                  - generic [ref=f18e961]: 30:00
+                  - generic [ref=f18e969]: Day 3 Full Body Sculpt
+              - link "10:00 Day 4 Core Sculpt" [ref=f18e973] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/0ZhpMUUmK5xaoiaJRJsl
+                - generic [ref=f18e977]:
+                  - generic [ref=f18e978]: 10:00
+                  - generic [ref=f18e986]: Day 4 Core Sculpt
+              - link [ref=f18e990] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/17AyDgheHHphEMOGoZOD
+                - generic [ref=f18e994]:
+                  - generic [ref=f18e995]: 20:00
+                  - generic [ref=f18e1003]: Day 5 Upper Body Sculpt
+            - generic [ref=f18e1007] [cursor=pointer]
+        - generic [ref=f18e1011]:
+          - generic [ref=f18e1012]:
+            - heading "Favourites" [level=3] [ref=f18e1013]
+            - link "View All" [ref=f18e1014] [cursor=pointer]:
+              - /url: /iframe/pilates-with-harriet/videos/yguuS7RQtQRve9kuBNG6
+          - generic [ref=f18e1015]:
+            - generic [ref=f18e1016] [cursor=pointer]
+            - generic [ref=f18e1021]:
+              - link "35:00 Day 1 Full Body Power" [ref=f18e1024] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/IplahdH0L4NdwboFgvvA
+                - generic [ref=f18e1028]:
+                  - generic [ref=f18e1029]: 35:00
+                  - generic [ref=f18e1037]: Day 1 Full Body Power
+              - link "30:00 Day 4 Full Body" [ref=f18e1041] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/6kQoRe4tEHgmpsPITC2B
+                - generic [ref=f18e1045]:
+                  - generic [ref=f18e1046]: 30:00
+                  - generic [ref=f18e1054]: Day 4 Full Body
+              - link "15:00 Day 3 Abdominal burn" [ref=f18e1058] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/NupkpWm2mYT0Ify8obnV
+                - generic [ref=f18e1062]:
+                  - generic [ref=f18e1063]: 15:00
+                  - generic [ref=f18e1071]: Day 3 Abdominal burn
+              - link "40:00 Full Body Power Sculpt" [ref=f18e1075] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/BS25XE8UHc941VN2yEiI
+                - generic [ref=f18e1079]:
+                  - generic [ref=f18e1080]: 40:00
+                  - generic [ref=f18e1088]: Full Body Power Sculpt
+              - link [ref=f18e1092] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/WYqsfZwIrTd0xEU9fUJ1
+                - generic [ref=f18e1096]:
+                  - generic [ref=f18e1097]: 30:00
+                  - generic [ref=f18e1105]: Day 4 Full Body Strength
+            - generic [ref=f18e1110] [cursor=pointer]
+        - generic [ref=f18e1114]:
+          - generic [ref=f18e1115]:
+            - heading "Stretch & Beginner Sculpt" [level=3] [ref=f18e1116]
+            - link "View All" [ref=f18e1117] [cursor=pointer]:
+              - /url: /iframe/pilates-with-harriet/videos/qGu2vLtAXjWJ9JH0ZDZL
+          - generic [ref=f18e1118]:
+            - generic [ref=f18e1119] [cursor=pointer]
+            - generic [ref=f18e1124]:
+              - link "20:00 Debloat & Destress" [ref=f18e1127] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/f21awKj2tB2V1Qo9Oc2a
+                - generic [ref=f18e1131]:
+                  - generic [ref=f18e1132]: 20:00
+                  - generic [ref=f18e1140]: Debloat & Destress
+              - link "20:00 Day 5 Postural Strength & Stretch" [ref=f18e1144] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/MvLQHodjb0pU2W8illi5
+                - generic [ref=f18e1148]:
+                  - generic [ref=f18e1149]: 20:00
+                  - generic [ref=f18e1157]: Day 5 Postural Strength & Stretch
+              - link "20:00 Day 7 Lymphatic Flow" [ref=f18e1161] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/8r1Pv5eCDPPrsALpLbo3
+                - generic [ref=f18e1165]:
+                  - generic [ref=f18e1166]: 20:00
+                  - generic [ref=f18e1174]: Day 7 Lymphatic Flow
+              - link "20:00 Stretch and Sculpt" [ref=f18e1178] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/Qk1Qmk0A7K5vJNutCC3A
+                - generic [ref=f18e1182]:
+                  - generic [ref=f18e1183]: 20:00
+                  - generic [ref=f18e1191]: Stretch and Sculpt
+              - link [ref=f18e1195] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/2GpkdTeYnYgny7MQsVns
+                - generic [ref=f18e1199]:
+                  - generic [ref=f18e1200]: 25:00
+                  - generic [ref=f18e1208]: Beginner Sculpt
+            - generic [ref=f18e1213] [cursor=pointer]
+        - generic [ref=f18e1217]:
+          - generic [ref=f18e1218]:
+            - heading "Sculpt & Strengthen" [level=3] [ref=f18e1219]
+            - link "View All" [ref=f18e1220] [cursor=pointer]:
+              - /url: /iframe/pilates-with-harriet/videos/cxk4IsVGjEy0YLBS7Sui
+          - generic [ref=f18e1221]:
+            - generic [ref=f18e1222] [cursor=pointer]
+            - generic [ref=f18e1227]:
+              - link "20:00 Pilates Ball Burn Tuesday, Nov 4" [ref=f18e1230] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/IQcPska0hybXivy29juv
+                - generic [ref=f18e1234]:
+                  - generic [ref=f18e1235]: 20:00
+                  - generic [ref=f18e1243]:
+                    - generic [ref=f18e1244]: Pilates Ball Burn
+                    - paragraph [ref=f18e1245]: Tuesday, Nov 4
+              - link "20:00 Magic Circle Mat Wednesday, Oct 15" [ref=f18e1248] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/qJFCUDLWvEn4EG3x1CFW
+                - generic [ref=f18e1252]:
+                  - generic [ref=f18e1253]: 20:00
+                  - generic [ref=f18e1261]:
+                    - generic [ref=f18e1262]: Magic Circle Mat
+                    - paragraph [ref=f18e1263]: Wednesday, Oct 15
+              - link "30:00 Full Body Power" [ref=f18e1266] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/TJJrji3fcMjpCOotYvMT
+                - generic [ref=f18e1270]:
+                  - generic [ref=f18e1271]: 30:00
+                  - generic [ref=f18e1279]: Full Body Power
+              - link "25:00 Signature Flow" [ref=f18e1283] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/KicF5ys6O2uCDhaxtOvF
+                - generic [ref=f18e1287]:
+                  - generic [ref=f18e1288]: 25:00
+                  - generic [ref=f18e1296]: Signature Flow
+              - link [ref=f18e1300] [cursor=pointer]:
+                - /url: /iframe/pilates-with-harriet/videos/checkout/E1sRahXvh3xOrrm5GKXj
+                - generic [ref=f18e1304]:
+                  - generic [ref=f18e1305]: 5:00
+                  - generic [ref=f18e1313]: Ab series of 5
+            - generic [ref=f18e1318] [cursor=pointer]
+      - link [ref=f18e1324] [cursor=pointer]:
+        - /url: https://arketa.co?utm_campaign=widget&utm_source=pilates-with-harriet
+  - generic [ref=f17e22]:
+    - link [ref=f17e23] [cursor=pointer]:
+      - /url: https://www.instagram.com/pilateswithharriet
+      - heading "@pilateswithharriet" [level=2] [ref=f17e24]
+    - generic [ref=f17e25]:
+      - link [ref=f17e26] [cursor=pointer]:
+        - /url: https://www.instagram.com/pilateswithharriet/
+      - link [ref=f17e27] [cursor=pointer]:
+        - /url: https://www.instagram.com/pilateswithharriet/
+      - link [ref=f17e28] [cursor=pointer]:
+        - /url: https://www.instagram.com/pilateswithharriet/
+      - link [ref=f17e29] [cursor=pointer]:
+        - /url: https://www.instagram.com/pilateswithharriet/
+      - link [ref=f17e30] [cursor=pointer]:
+        - /url: https://www.instagram.com/pilateswithharriet/
+      - link [ref=f17e31] [cursor=pointer]:
+        - /url: https://www.instagram.com/pilateswithharriet/
+      - link [ref=f17e32] [cursor=pointer]:
+        - /url: https://www.instagram.com/pilateswithharriet/
+      - link [ref=f17e33] [cursor=pointer]:
+        - /url: https://www.instagram.com/pilateswithharriet/
+  - contentinfo [ref=f17e34]:
+    - generic [ref=f17e35]:
+      - generic [ref=f17e37]:
+        - link "Home" [ref=f17e38] [cursor=pointer]:
+          - /url: /
+        - link "Start Trial" [ref=f17e39] [cursor=pointer]:
+          - /url: /start-trial
+        - link "About" [ref=f17e40] [cursor=pointer]:
+          - /url: /about
+        - link "Meet Harriet" [ref=f17e41] [cursor=pointer]:
+          - /url: /meet-harriet
+        - link "Virtual Studio" [ref=f17e42] [cursor=pointer]:
+          - /url: /virtual-studio
+        - link "Live Classes" [ref=f17e43] [cursor=pointer]:
+          - /url: /live-classes
+        - link "Your Account" [ref=f17e44] [cursor=pointer]:
+          - /url: /account
+        - link "Contact" [ref=f17e45] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f17e46]:
+        - heading "Subscribe to my newsletter" [level=4] [ref=f17e47]
+        - generic [ref=f17e53]:
+          - generic [ref=f17e54]:
+            - generic [ref=f17e55]:
+              - textbox "First name *" [ref=f17e56]:
+                - /placeholder: RVlFMHduZ3ZE
+              - generic: First name *
+            - generic [ref=f17e57]:
+              - textbox "Email addr ess*" [ref=f17e58]:
+                - /placeholder: RCZuVW8
+              - generic: Email addr ess*
+          - button "Subscribe" [ref=f17e60] [cursor=pointer]
+    - paragraph [ref=f17e62]:
+      - text: © Copyright 2026 Pilates With Harriet. Website by
+      - link "Klioh Studio" [ref=f17e63] [cursor=pointer]:
+        - /url: https://klioh.com

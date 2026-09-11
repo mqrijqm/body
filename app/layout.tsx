@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import type { ReactNode } from 'react';
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://body-and-soul-pilates.vercel.app';
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://body-soul-pilates.vercel.app';
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),

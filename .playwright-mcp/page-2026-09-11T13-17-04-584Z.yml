@@ -1,0 +1,94 @@
+- generic [active] [ref=f26e1]:
+  - banner [ref=f26e2]:
+    - link "Cloud 9 Reformer Pilates — početna" [ref=f26e3] [cursor=pointer]:
+      - /url: /
+      - generic [ref=f26e4]: CLOUD
+    - button "Otvori meni" [ref=f26e11]
+  - main [ref=f26e14]:
+    - generic [ref=f26e15]:
+      - generic [ref=f26e16]:
+        - paragraph [ref=f26e17]: Studio
+        - heading [level=1] [ref=f26e18]:
+          - text: Mjesto gdje je tijelo
+          - emphasis [ref=f26e19]: na prvom mjestu.
+        - paragraph [ref=f26e20]: "Grupe su male namjerno: da instruktor stigne do svakoga i da niko ne radi pokret na svoju ruku."
+      - generic [ref=f26e21]:
+        - figure "Cloud 9 Studio" [ref=f26e22]:
+          - img "Izduživanje bočne linije tijela na reformeru" [ref=f26e23]
+          - img "Podizanje nogu na reformeru sa trakama" [ref=f26e24]
+        - generic [ref=f26e26]:
+          - paragraph [ref=f26e27]: O prostoru
+          - heading [level=2] [ref=f26e28]:
+            - text: Sve što ti treba,
+            - emphasis [ref=f26e29]: ništa što smeta.
+          - paragraph [ref=f26e30]: "Cloud 9 je reformer studio otvoren za sve — od prvog časa do godina prakse. Grupe su male namjerno: da instruktor stigne do svakoga i da niko ne radi pokret na svoju ruku."
+          - paragraph [ref=f26e31]: Bez ogledala u koja se bulji, bez trke za brojem ponavljanja. Ovdje se broji tačnost, a rezultat dolazi sam.
+          - generic [ref=f26e32]:
+            - generic [ref=f26e33]:
+              - strong [ref=f26e34]: "6"
+              - text: Mjesta u grupi
+            - generic [ref=f26e35]:
+              - strong [ref=f26e36]: "50"
+              - text: Minuta po času
+            - generic [ref=f26e37]:
+              - strong [ref=f26e38]: 1:1
+              - text: Pažnja po vježbaču
+      - generic [ref=f26e39]:
+        - generic [ref=f26e40]:
+          - generic [ref=f26e41]:
+            - paragraph [ref=f26e42]: Kako izgleda čas
+            - heading [level=2] [ref=f26e43]:
+              - text: Bez iznenađenja,
+              - emphasis [ref=f26e44]: bez žurbe.
+          - paragraph [ref=f26e45]: Ako ti je prvi put, ovo te čeka od trenutka kad uđeš na vrata.
+        - generic [ref=f26e46]:
+          - article [ref=f26e47]:
+            - text: "01"
+            - heading "Dođi 10 minuta ranije" [level=3] [ref=f26e48]
+            - paragraph [ref=f26e49]: Taman da ostaviš telefon, obučeš čarape sa gripom i smiriš dah.
+          - article [ref=f26e50]:
+            - text: "02"
+            - heading "Postavljanje" [level=3] [ref=f26e51]
+            - paragraph [ref=f26e52]: Instruktor podešava opruge i mašinu prema tvom tijelu — svaki čas iznova.
+          - article [ref=f26e53]:
+            - text: "03"
+            - heading "Rad" [level=3] [ref=f26e54]
+            - paragraph [ref=f26e55]: Zagrijavanje, glavni blok, izduživanje. Bez žurbe, bez preskakanja.
+      - generic [ref=f26e56]:
+        - heading [level=2] [ref=f26e57]:
+          - text: Najbolje se vidi
+          - emphasis [ref=f26e58]: iznutra.
+        - link "Rezerviši termin" [ref=f26e59] [cursor=pointer]:
+          - /url: /nalog
+          - text: Rezerviši termin
+          - generic [ref=f26e60]: ↗
+  - contentinfo [ref=f26e61]:
+    - generic [ref=f26e62]:
+      - generic [ref=f26e63]:
+        - generic [ref=f26e66]: CLOUD
+        - generic [ref=f26e74]: REFORMER PILATES
+      - navigation "Navigacija u podnožju" [ref=f26e75]:
+        - link "O nama" [ref=f26e76] [cursor=pointer]:
+          - /url: /o-nama
+        - link "Studio" [ref=f26e77] [cursor=pointer]:
+          - /url: /studio
+        - link "Raspored" [ref=f26e78] [cursor=pointer]:
+          - /url: /raspored
+        - link "Cijene" [ref=f26e79] [cursor=pointer]:
+          - /url: /cijene
+        - link "Pitanja" [ref=f26e80] [cursor=pointer]:
+          - /url: /pitanja
+        - link "Nalog" [ref=f26e81] [cursor=pointer]:
+          - /url: /nalog
+        - link "Kontakt" [ref=f26e82] [cursor=pointer]:
+          - /url: /kontakt
+      - generic [ref=f26e83]:
+        - term [ref=f26e84]: Studio
+        - definition [ref=f26e85]: Adresa uskoro
+        - term [ref=f26e86]: Kontakt
+        - definition [ref=f26e87]: Broj uskoro
+    - generic [ref=f26e88]:
+      - paragraph [ref=f26e89]: © 2026 Cloud 9 Reformer Pilates
+      - link "Nazad na početnu ↑" [ref=f26e90] [cursor=pointer]:
+        - /url: /
+  - alert [ref=f26e91]

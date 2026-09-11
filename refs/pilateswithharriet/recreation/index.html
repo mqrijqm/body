@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cloud 9 Reformer Pilates</title>
+<meta name="description" content="Small group reformer pilates. Ten reformers, never more than ten on the floor. First class free.">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/assets/favicon.png" type="image/png" sizes="256x256">
+<link rel="apple-touch-icon" href="/assets/favicon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          dark:   '#2A3A4B',   /* navy iz njenog swatcha — tekst i linije */
+          light:  '#FFFFFF',   /* bela baza */
+          blue:   '#CBD3DA',   /* srednji ton navya — sekcije */
+          sand:   '#EDF1F3',   /* najsvetliji ton navya — treca sekcija */
+          tan:    '#6E8095',   /* razblazeni navy — akcenti (bilo smedje) */
+        },
+        fontFamily: {
+          sans:  ['Inter', 'sans-serif'],
+          serif: ['"Instrument Serif"', 'serif'],
+        },
+      },
+    },
+  }
+</script>
+
+<style>
+  /* ---- tokeni izvučeni iz originala ---- */
+  body {
+    background-color: #FFFFFF;
+    color: #2A3A4B;
+    font-family: Inter, sans-serif;
+    font-weight: 200;              /* stand-in za Neue Haas Display 35 Extra Light */
+    font-size: 17.5px;
+    line-height: 22px;
+    word-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  .svh { height: 100vh; height: 100svh; }
+
+  .serif-heading { font-family: 'Instrument Serif', serif; font-size: 1.575rem; line-height: 1; font-weight: 400; }
+  @media (min-width: 768px) { .serif-heading { font-size: 1.975rem; } }
+
+  .sans-heading    { font-family: Inter, sans-serif; font-size: 1.4rem;   line-height: 32px; text-transform: uppercase; font-weight: 200; }
+  @media (min-width: 1024px) { .sans-heading { font-size: 1.7rem; line-height: 39px; } }
+  .sans-heading-sm { font-family: Inter, sans-serif; font-size: 1.475rem; line-height: 1.4;  text-transform: uppercase; font-weight: 200; }
+  .sans-heading-lg { font-family: Inter, sans-serif; font-size: 2rem;     line-height: 39px; text-transform: uppercase; font-weight: 200; }
+
+  .font-italic { font-style: italic; color: #6E8095; }
+
+  .nav-items  { display: flex; flex-direction: row; align-items: center; justify-content: space-around;
+                font-size: 0.8rem; font-weight: 400; text-transform: uppercase; }
+  .nav-footer { display: block; font-size: 0.8rem; font-weight: 500; text-transform: uppercase; }
+
+  .btn {
+    border-radius: 50%; border: 1px solid #2A3A4B;
+    padding: 0.25rem 2rem;
+    font-size: 0.875rem; line-height: 1.25rem;
+    text-transform: uppercase; font-weight: 200;
+    color: #2A3A4B; display: inline-block;
+    transition: background-color .15s cubic-bezier(.4,0,.2,1);
+  }
+  .btn:hover { background-color: #CBD3DA; }
+
+  .btn-signup {
+    position: fixed; right: 0; bottom: 2rem; z-index: 10;
+    border-radius: 50%; border: 1px solid #2A3A4B; background-color: #CBD3DA;
+    padding: 0.25rem 2rem; font-size: 10px; text-transform: uppercase; color: #2A3A4B;
+  }
+  @media (min-width: 1024px) { .btn-signup { font-size: 16px; } }
+
+  ul li {
+    padding-left: 2.6em; text-indent: -1.6em;
+    font-size: 1.15rem; line-height: 1.75rem; font-weight: 200;
+    margin-bottom: 1.25rem;
+  }
+  @media (min-width: 768px) { ul li { font-size: 1.25rem; } }
+  @media (min-width: 1024px) { ul li { padding-left: 2.1em; text-indent: -1.3em; } }
+  ul li::before {
+    content: '+'; font-weight: 100; font-size: 2.5rem; color: #6E8095;
+    display: inline-block; vertical-align: middle; margin-right: 1rem;
+  }
+  @media (min-width: 768px)  { ul li::before { margin-right: 2.5rem; } }
+  @media (min-width: 1024px) { ul li::before { font-size: 3rem; margin-right: 1.5rem; } }
+
+  .aspect-portrait  { aspect-ratio: 3/4; }
+  .aspect-landscape { aspect-ratio: 4/3; }
+
+  /* ---- placeholderi ---- */
+  /* siva kutija = mesto gde original ima fotografiju/video */
+  .ph {
+    background-color: #E2E7EA;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase;
+    font-weight: 400; color: #8B9AA8;
+    overflow: hidden;
+  }
+  /* prazan slot = logo / lični brand mark iz originala, namerno bez sadržaja */
+  .slot { border: 1px dashed rgba(42,58,75,.18); display: block; }
+
+  /* hover-tabovi u sekciji sa klasama */
+  .video-hover { cursor: pointer; transition: opacity .2s; }
+  .video-hover.is-active { opacity: 1; }
+  .video-hover:not(.is-active) { opacity: .45; }
+  .classesContent { display: none; }
+  .classesContent.is-shown { display: block; }
+
+  /* ---- slider ---- */
+  .slider-container { position: relative; }
+  .slide { display: none; }
+  .slide.is-active { display: block; }
+  .slider-arrow {
+    position: absolute; top: 50%; transform: translateY(-50%);
+    background: none; border: none; cursor: pointer;
+    font-size: 1.25rem; color: #2A3A4B; padding: .5rem;
+  }
+  .slider-prev { left: 0; }
+  .slider-next { right: 0; }
+  @media (min-width: 768px) { .slider-prev { left: -1.5rem; } .slider-next { right: -1.5rem; } }
+
+  /* ---- burger ---- */
+  .burger-button { position: fixed; top: 34px; right: 30px; z-index: 5000; width: 45px; height: 22px; cursor: pointer; }
+  @media (max-width: 768px) { .burger-button { top: 25px; right: 12px; } .burger-button span { width: 35px !important; } }
+  .burger-button span { position: absolute; left: 0; width: 45px; height: 0; border: 1px solid #2A3A4B; background-color: #2A3A4B; transition: .3s; }
+  .burger-top { top: 0; } .burger-middle { top: 9px; } .burger-bottom { bottom: 0; }
+  .burger-button.active .burger-top    { top: 9px; transform: rotateZ(45deg); }
+  .burger-button.active .burger-middle { opacity: 0; }
+  .burger-button.active .burger-bottom { bottom: 11px; transform: rotateZ(-45deg); }
+  .burger-menu {
+    position: fixed; inset: 0; z-index: 4000; background-color: #EDF1F3;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    opacity: 0; pointer-events: none; transition: opacity .3s;
+  }
+  .burger-menu.open { opacity: 1; pointer-events: auto; }
+  .menu-text { font-size: 1.475rem; text-transform: uppercase; font-weight: 200; }
+</style>
+</head>
+
+<body>
+
+<!-- ============ HEADER (desktop) ============ -->
+<header class="hidden md:grid grid-cols-3 px-12 py-8 absolute top-0 left-0 right-0 z-20">
+  <nav class="nav-items">
+    <a href="#">About</a>
+    <a href="#">Meet the studio</a>
+  </nav>
+  <nav class="flex justify-center items-center">
+    <a href="#" class="inline-flex">
+      <img src="assets/mark-cloud9-navy.png" alt="Cloud 9" class="h-20 w-auto object-contain mx-auto">
+    </a>
+  </nav>
+  <nav class="nav-items">
+    <a href="#">Timetable</a>
+    <a href="#">Prices</a>
+  </nav>
+</header>
+
+<!-- ============ BURGER (mobile) ============ -->
+<section class="md:hidden">
+  <nav>
+    <div class="burger-button" id="burger">
+      <span class="burger-top"></span>
+      <span class="burger-middle"></span>
+      <span class="burger-bottom"></span>
+    </div>
+    <div class="burger-menu" id="burgerMenu">
+      <a href="#" class="logo-burger absolute top-3 left-1/2 -translate-x-1/2">
+        <img src="assets/logo-cloud9-navy.png" alt="Cloud 9 Reformer Pilates" class="h-14 w-auto object-contain mx-auto">
+      </a>
+      <a href="#" class="menu-text my-3">Home</a>
+      <a href="#" class="menu-text my-3">About</a>
+      <a href="#" class="menu-text my-3">Meet the studio</a>
+      <a href="#" class="menu-text my-3">Timetable</a>
+      <a href="#" class="menu-text my-3">Prices</a>
+      <a href="#" class="menu-text my-3">Your Account</a>
+      <a href="#" class="menu-text my-3">Contact</a>
+    </div>
+  </nav>
+</section>
+
+<a href="#" class="btn-signup">First class free</a>
+
+<!-- ============ 1 · HERO ============ -->
+<section class="svh relative bg-cover md:bg-[30%_50%] bg-[100%_50%] flex md:items-center items-top justify-center"
+         style="background-image:url('assets/reformer-side-bend.webp')">
+  <!-- svetli veo: bez njega se tamni logo gubi na fotografiji -->
+  <div class="absolute inset-0 pointer-events-none"
+       style="background:linear-gradient(to bottom, rgba(255,255,255,.64) 0%, rgba(255,255,255,.36) 45%, rgba(255,255,255,.54) 100%)"></div>
+  <img src="assets/logo-cloud9-navy.png" alt="Cloud 9 Reformer Pilates"
+       class="xl:w-[34%] md:w-[42%] w-[78%] h-auto mt-[25%] md:mt-0 object-contain mx-auto relative z-10">
+</section>
+
+<!-- ============ 2 · INTRO ============ -->
+<section class="text-center xl:py-28 xl:px-20 md:p-20 py-12 px-5">
+  <div class="flex flex-col items-center justify-center xl:min-h-[60vh] min-h-[40vh] serif-heading">
+    <h2 class="serif-heading">
+      <span class="text-blue md:mx-2">Breathe</span>
+      <span class="text-blue md:mx-2">Align</span>
+      <span class="font-italic">Restore</span>
+    </h2>
+    <h1 class="sans-heading lg:w-[35%] md:w-[75%] w-full mx-auto md:my-12 my-8">
+      Reformer pilates built on precision, control and the slow work of a body that lasts
+    </h1>
+    <a href="#" class="btn">Explore</a>
+  </div>
+</section>
+
+<!-- ============ 3 · ONLINE STUDIO (bg-blue, 3 kolone) ============ -->
+<section class="bg-blue xl:px-20 lg:py-12 md:px-10 md:py-20 px-5 py-12">
+  <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 container mx-auto">
+
+    <div class="lg:mt-32 lg:ml-12 mb-10 md:mb-0">
+      <h2 class="serif-heading md:mb-12 md:w-[70%] w-full">
+        The <span class="font-italic">Reformer Studio</span>
+        <span class="uppercase">to move</span>
+        <span class="font-italic">your body and</span>
+        <span class="font-italic">quiet your mind</span>
+      </h2>
+      <a href="#" class="btn">Book a class</a>
+    </div>
+
+    <div class="xl:mt-32 lg:mt-24 mb-12 md:mb-0">
+      <ul class="mb-8">
+        <li>Small group reformer classes</li>
+        <li>Private and duet sessions</li>
+        <li>Beginner courses every month</li>
+        <li>Ten fully equipped reformers</li>
+        <li>First class free</li>
+      </ul>
+      <a href="#" class="btn">Book a class</a>
+    </div>
+
+    <div class="lg:col-span-1 md:col-span-full md:mt-8 lg:mt-0 flex justify-center items-center">
+      <img src="assets/reformer-legs-up.webp" alt="" class="object-center object-cover mx-auto xl:h-[70vh] lg:h-[30vh] md:h-[45vh] h-[50vh] lg:aspect-square md:aspect-landscape md:w-auto w-full">
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ 4 · FEATURES + TELEFON + VIDEO (3 kolone) ============ -->
+<section class="xl:px-32 lg:py-12 md:p-0 pb-12 pt-4 px-5">
+  <div class="grid md:grid-cols-3 grid-cols-1 container mx-auto">
+
+    <!-- leva kolona: dva bloka sa donjom linijom -->
+    <div class="md:p-10">
+      <div class="border-dark border-b">
+        <h3 class="text-base md:mt-20 mt-8 uppercase lg:mb-16 mb-8">Ten reformers, small groups</h3>
+        <p class="mb-12">Never more than ten on the floor. Enough space to be seen, corrected and actually coached through every repetition.</p>
+      </div>
+      <div class="border-dark border-b">
+        <h3 class="text-base md:mt-20 mt-8 uppercase lg:mb-16 mb-8">Built around your body</h3>
+        <p class="mb-12">Springs, straps and tempo adjust to you. The same class works for a first-timer and for someone rebuilding after injury.</p>
+      </div>
+    </div>
+
+    <!-- srednja kolona: video + dugme
+         (u originalu ovde stoji i <img> telefona, ali je zakomentarisan —
+          telefon koji se vidi na sajtu je sadržaj samog videa) -->
+    <div class="flex flex-col justify-center items-center text-center mt-12">
+      <div class="relative min-h-[70vh] md:min-h-[45vh] xl:min-h-[80vh] w-[100%]">
+        <div class="ph absolute inset-0 w-full">YOUR VIDEO</div>
+      </div>
+      <a href="#" class="btn">See the timetable</a>
+    </div>
+
+    <!-- desna kolona: dva bloka sa donjom linijom -->
+    <div class="md:p-10 mt-8 md:mt-0">
+      <div class="border-dark border-b">
+        <h3 class="text-base md:mt-20 mt-8 uppercase lg:mb-16 mb-8">A timetable that fits</h3>
+        <p class="mb-12">Early mornings, lunch hours and evenings, seven days a week. Book, move, and get on with your day.</p>
+      </div>
+      <div class="border-dark border-b">
+        <h3 class="text-base md:mt-20 mt-8 uppercase lg:mb-16 mb-8">Progress you can feel</h3>
+        <p class="mb-12">Six weeks in, clients tell us the same thing — better posture, a quieter back, and a body that finally feels like it listens.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ 5 · MEET THE FOUNDER (bg-sand, 8-kolonski grid) ============ -->
+<section class="bg-sand lg:pt-10 lg:pl-10">
+  <div class="grid md:grid-cols-8 grid-cols-1 container mx-auto">
+
+    <div class="lg:col-span-3 md:col-span-4 xl:p-10 lg:pr-10 pt-10 pb-8 pl-5 pr-0">
+      <img src="assets/reformer-side-bend.webp" alt="" class="xl:h-[80vh] md:min-h-[50vh] aspect-portrait object-center object-cover mx-auto w-full">
+    </div>
+
+    <div class="lg:col-span-5 md:col-span-4 lg:pl-0 md:pt-24 md:pl-10 pl-5">
+      <h4 class="sans-heading lg:mb-12 mb-8">Meet the studio</h4>
+
+      <div class="grid lg:grid-cols-2 md:grid-cols-1 md:gap-8 items-start justify-start lg:pr-20 md:pr-12">
+        <div class="pr-8 md:pr-0">
+          <p class="lg:mb-16 md:mb-8">Cloud 9 started as a place to step out of the noise and back into the body — somewhere the work is slow, deliberate and entirely yours.</p>
+          <a href="#" class="hidden lg:inline-block btn items-start">About Cloud 9</a>
+        </div>
+        <div class="hidden lg:flex flex-col">
+          <p class="mb-8 md:mb-0">The method comes down to one idea: sustainable strength. You leave a class feeling capable and taller, not emptied out.</p>
+          <a href="#" class="md:hidden btn items-start">About Cloud 9</a>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-2 lg:mt-8 md:mt-12 mt-8">
+        <img src="assets/reformer-legs-up.webp" alt="" class="lg:col-start-2 lg:col-span-1 col-span-full aspect-[3/2] object-center object-cover mx-auto w-full">
+      </div>
+    </div>
+
+    <!-- treći tekst se na mobilnom/tabletu prikazuje odvojeno ispod -->
+    <div class="lg:hidden md:col-span-4 md:mt-0 md:ml-10 md:mr-0 mr-5 ml-5 mt-8 mb-10">
+      <p class="mb-8">The method comes down to one idea: sustainable strength. You leave a class feeling capable and taller, not emptied out.</p>
+      <a href="#" class="lg:hidden btn items-start">About Cloud 9</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ 6 · TESTIMONIALS (slider) ============ -->
+<section class="grid grid-cols-1 lg:px-20 lg:py-36 md:p-12 py-10 px-5 text-center">
+  <h2 class="sans-heading lg:mb-20">Client testimonials</h2>
+
+  <div class="slider-container xl:w-[50%] md:w-[75%] w-full mx-auto mb-8">
+    <button class="slider-arrow slider-prev" aria-label="Previous">&#8249;</button>
+
+    <div class="slide is-active md:mx-10 mx-8">
+      <p>"The perfect mix of classical and contemporary, and each class is unique, with extra focus on form and alignment. I have been at this for years now and it has transformed both my practice and my strength in a way nothing else has."</p>
+      <h3 class="mb-8 mt-8 font-serif text-xl">Client name</h3>
+    </div>
+    <div class="slide md:mx-10 mx-8">
+      <p>"I came in after an injury and expected to be babied. Instead I got a practice that met me where I was and kept quietly raising the bar."</p>
+      <h3 class="mb-8 mt-8 font-serif text-xl">Client name</h3>
+    </div>
+    <div class="slide md:mx-10 mx-8">
+      <p>"Twenty minutes most mornings and my back pain is simply gone. I did not think something this small could change that much."</p>
+      <h3 class="mb-8 mt-8 font-serif text-xl">Client name</h3>
+    </div>
+    <div class="slide md:mx-10 mx-8">
+      <p>"The cueing is the thing. You always know exactly what you are meant to feel and where, which makes practising alone at home actually work."</p>
+      <h3 class="mb-8 mt-8 font-serif text-xl">Client name</h3>
+    </div>
+    <div class="slide md:mx-10 mx-8">
+      <p>"I have tried a lot of online studios and dropped every one of them by week three. This is the first that stuck for over a year."</p>
+      <h3 class="mb-8 mt-8 font-serif text-xl">Client name</h3>
+    </div>
+
+    <button class="slider-arrow slider-next" aria-label="Next">&#8250;</button>
+  </div>
+
+  <div>
+    <a href="#" class="btn">Book a class</a>
+  </div>
+</section>
+
+<!-- ============ 7 · CLASS TYPES (bg-blue, 7-kolonski grid) ============ -->
+<section class="bg-blue lg:px-28 lg:py-20 md:py-12 md:px-10 px-5 py-10">
+  <div class="grid md:grid-cols-7 grid-cols-1 container mx-auto">
+
+    <!-- naslovi su tabovi: hover menja video desno -->
+    <div class="md:col-span-3 lg:w-[60%] md:w-[75%] w-full md:mt-8 md:mb-0 mb-4">
+      <p class="video-hover sans-heading md:mb-20 mb-4 is-active" data-tab="tone">Reformer Flow</p>
+      <p class="video-hover sans-heading md:mb-20 mb-4" data-tab="stretch">Strength &amp; Stretch</p>
+      <p class="video-hover sans-heading md:mb-20 mb-4" data-tab="beginners">Beginner Course</p>
+    </div>
+
+    <div class="md:col-span-4">
+      <div class="classesContent is-shown" data-panel="tone">
+        <div style="margin-bottom:1rem;padding:56% 0 0 0;position:relative;">
+          <div class="ph" style="position:absolute;top:0;left:0;width:100%;height:100%;">YOUR VIDEO</div>
+        </div>
+        <p class="mb-4">Continuous, flowing sequences on the reformer. The slow burn of pilates, and muscles you did not know you had. Suitable for all levels.</p>
+      </div>
+      <div class="classesContent" data-panel="stretch">
+        <div style="margin-bottom:1rem;padding:56% 0 0 0;position:relative;">
+          <div class="ph" style="position:absolute;top:0;left:0;width:100%;height:100%;">YOUR VIDEO</div>
+        </div>
+        <p class="mb-4">The body works in harmony when strength and flexibility are in balance. Heavier springs, longer holds, deeper release at the end.</p>
+      </div>
+      <div class="classesContent" data-panel="beginners">
+        <div style="margin-bottom:1rem;padding:56% 0 0 0;position:relative;">
+          <div class="ph" style="position:absolute;top:0;left:0;width:100%;height:100%;">YOUR VIDEO</div>
+        </div>
+        <p class="mb-4">Four weeks, same group, same time. Everything you need to walk into any reformer class and know exactly what you are doing.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ 8 · INSTAGRAM GRID ============ -->
+<section class="md:py-24 xl:px-16 px-5 py-10 container mx-auto">
+  <a href="#"><h2 class="mb-4 font-serif text-3xl">@cloud9reformerpilates</h2></a>
+  <div class="grid md:grid-cols-4 grid-cols-2 gap-4">
+    <a href="#"><img src="assets/reformer-side-bend.webp" alt="" class="aspect-square object-[50%_12%]  object-cover mx-auto w-full"></a>
+    <a href="#"><img src="assets/reformer-legs-up.webp" alt="" class="aspect-square object-[38%_62%]  object-cover mx-auto w-full"></a>
+    <a href="#"><img src="assets/reformer-side-bend.webp" alt="" class="aspect-square object-[62%_30%]  object-cover mx-auto w-full"></a>
+    <a href="#"><img src="assets/reformer-legs-up.webp" alt="" class="aspect-square object-[45%_85%]  object-cover mx-auto w-full"></a>
+    <a href="#"><img src="assets/reformer-side-bend.webp" alt="" class="aspect-square object-[30%_45%]  object-cover mx-auto w-full"></a>
+    <a href="#"><img src="assets/reformer-legs-up.webp" alt="" class="aspect-square object-[70%_70%]  object-cover mx-auto w-full"></a>
+    <a href="#"><img src="assets/reformer-side-bend.webp" alt="" class="aspect-square object-[55%_25%]  object-cover mx-auto w-full"></a>
+    <a href="#"><img src="assets/reformer-legs-up.webp" alt="" class="aspect-square object-[40%_55%]  object-cover mx-auto w-full"></a>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="lg:pt-20 lg:pb-8 md:p-10 p-8 bg-blue border-dark border-t">
+  <div class="grid lg:grid-cols-2 grid-cols-1">
+
+    <div class="flex items-end lg:mb-[5rem] mb-8">
+      <img src="assets/logo-cloud9-navy.png" alt="Cloud 9 Reformer Pilates" class="md:h-24 h-16 w-auto object-contain">
+    </div>
+
+    <div class="columns-2">
+      <a href="#" class="mb-4 nav-footer">Home</a>
+      <a href="#" class="mb-4 nav-footer">Book a class</a>
+      <a href="#" class="mb-4 nav-footer">About</a>
+      <a href="#" class="mb-4 nav-footer">Meet the studio</a>
+      <a href="#" class="mb-4 nav-footer">Timetable</a>
+      <a href="#" class="mb-4 nav-footer">Prices</a>
+      <a href="#" class="mb-4 nav-footer">Your account</a>
+      <a href="#" class="mb-4 nav-footer">Contact</a>
+    </div>
+
+    <div class="xl:col-span-1 xl:col-start-2 lg:mt-0 mt-8 col-span-full">
+      <h4 class="uppercase text-[0.8rem] font-medium">Subscribe to my newsletter</h4>
+      <form class="mt-4 flex flex-wrap gap-2">
+        <input type="text"  placeholder="First name" class="border border-dark bg-transparent px-5 py-3 text-[0.75rem] rounded-full placeholder:text-dark/60 outline-none">
+        <input type="email" placeholder="Email address" class="border border-dark bg-transparent px-5 py-3 text-[0.75rem] rounded-full placeholder:text-dark/60 outline-none">
+        <input type="submit" value="Subscribe" class="btn cursor-pointer bg-transparent">
+      </form>
+    </div>
+
+  </div>
+
+  <div class="mt-8 flex items-end lg:justify-end justify-start">
+    <p class="text-sm">
+      <span>© Copyright 2026 Cloud 9 Reformer Pilates.</span>
+      <a href="#" class="underline">Website by —</a>
+    </p>
+  </div>
+</footer>
+
+<script>
+  // burger
+  const burger = document.getElementById('burger');
+  const menu = document.getElementById('burgerMenu');
+  burger.addEventListener('click', () => {
+    burger.classList.toggle('active');
+    menu.classList.toggle('open');
+  });
+
+  // slider
+  const slides = [...document.querySelectorAll('.slide')];
+  let i = 0;
+  const show = n => {
+    slides[i].classList.remove('is-active');
+    i = (n + slides.length) % slides.length;
+    slides[i].classList.add('is-active');
+  };
+  document.querySelector('.slider-prev').addEventListener('click', () => show(i - 1));
+  document.querySelector('.slider-next').addEventListener('click', () => show(i + 1));
+
+  // hover-tabovi u sekciji sa klasama
+  document.querySelectorAll('.video-hover').forEach(t => {
+    t.addEventListener('mouseenter', () => {
+      document.querySelectorAll('.video-hover').forEach(x => x.classList.remove('is-active'));
+      document.querySelectorAll('.classesContent').forEach(p => p.classList.remove('is-shown'));
+      t.classList.add('is-active');
+      document.querySelector(`[data-panel="${t.dataset.tab}"]`).classList.add('is-shown');
+    });
+  });
+</script>
+
+</body>
+</html>

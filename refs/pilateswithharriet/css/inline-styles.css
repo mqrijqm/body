@@ -1,0 +1,290 @@
+
+  
+  /* burger */
+  
+  /* this is where you style the button if you want to add more space between the spans than add padding to this div but make sure you also add it to the top and bottom active classes on there top/bottom or else your cross wont line up*/
+  
+  .menu-p {
+    position: fixed;
+    top: 12px;
+    cursor: pointer;
+  }
+
+  .burger-menu .logo-burger {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    translate: -50%;
+    padding: 0;
+  }
+  
+  .burger-button {
+    position:fixed;
+    top: 34px;
+    right: 30px;
+    z-index: 5000;
+    padding: 8px;
+    color: black;
+  }
+  
+  /* positioning of button */
+  
+  @media (max-width: 768px) {
+      .burger-button {
+          top: 25px;
+          right: 12px;
+      }
+      .burger-button span {
+        width: 35px!important;
+      }
+  }
+  
+  /*this is where you can change the color of the buttons*/
+  .burger-button span {
+    width: 45px;
+    border: 1px solid black;
+    background-color: black;
+    opacity: 1;
+    display: block;
+    border-radius: 22px;
+    z-index: 20;
+    transition-duration: 0.5s;
+  }
+  
+  .burger-button.active span{
+    border-color: black;
+    background-color: black;
+    opacity: 1;
+  }
+  
+  
+  .burger-top, .burger-bottom { position: absolute; }
+  .burger-top                 { top: -02px;         }
+  .burger-bottom              { bottom: -02px;      }
+  
+  
+  /* make sure this has the same top as the burger button has padding*/
+  .burger-button.active .burger-top{
+    position: absolute;
+    top: 8px;
+    transform: rotateZ(45deg);
+  }
+  
+  .burger-button.active .burger-middle{
+  /*   transform: rotateZ(270deg); */
+    border-color: rgba(0,0,0,0);
+    background-color:rgba(0,0,0,0);
+  }
+  
+  /* make sure this has the same bottom as the burger button has padding*/
+  
+  .burger-button.active .burger-bottom{
+    position: absolute;
+    bottom: 8px;
+    transform: rotateZ(-45deg);
+  }
+  
+  
+  .burger-menu {
+    background-color: #e6ded2e0;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 1001;
+    width: 100vw;
+    height: 100vh;
+    height: 100svh;
+    /* left: 0;
+    float: right; */
+    opacity: 0;
+    transition: opacity;
+    transition-duration: 0.5s;
+    pointer-events: none; 
+  }
+  
+  .menu-text {
+    font-size: 1.2rem;
+    color: black;
+    text-transform: uppercase;
+  }
+  
+  @keyframes menu-text {
+      from { opacity: 0; }
+      to { opacity: 1; }
+  }
+  
+  
+  .burger-menu a {
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    white-space:nowrap;
+    opacity: 0;
+    transition: opacity 0.5s linear 1s, color 0.1s;
+  }
+  
+  .burger-menu.active   { top: 0;             }
+  .burger-menu.active a {
+    transition: opacity 2s linear 1s, color 0.1s;
+    opacity: 1;
+  }
+  
+  .burger-img {
+    object-fit: cover;
+    object-position: center;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top:0;
+    right:0;
+    left:40%;
+    bottom:0;
+    z-index: -1;
+    z-index: 100;
+    opacity: 0;
+    transition: all 0.5s;
+    transition-delay: 0;
+  }
+  
+  .burger-menu.active .burger-img {
+      transition: all 2s;
+      transition-delay: 1s;
+      opacity: 1;
+  }
+  
+  .burger-menu.active {
+      opacity: 1;
+      pointer-events: auto;
+  }
+  
+  /* media queries */
+  @media (max-width: 768px) {
+  
+  .burger-menu-links {
+    margin-top: 10px;
+  }
+  
+  .burger-menu {
+    width: 100vw;
+    height: 100vh;
+    height: 100svh;
+    left: 0;
+    right: 0;
+    transition: opacity;
+    transition-duration: 1s;
+    pointer-events: none;
+  }
+  
+  .burger-menu.active {
+      left: 0;
+      right: 0;
+      opacity: 1;
+      pointer-events: auto;
+  }
+  
+  }
+
+  /* Medium screens */
+  @media (min-width: 768px) {
+    /* Hide burger button on medium screens */
+  .burger-button {
+    opacity: 0;
+  }
+  }
+
+    /* Large screens */
+
+@media (min-width: 1024px) {
+    .menu-p {
+    top: 15px;
+    cursor: pointer;
+  }
+  }
+  
+  
+
+/* ---- next inline <style> block ---- */
+
+
+
+	#mc-embedded-subscribe {
+		margin: auto;
+		text-align: center;
+		background: #C2B0A1;
+	}
+
+	#mailchimp-popup{
+	  margin: 10rem auto;
+	  padding:0px 0px 0px;
+	  background: #F2EFEA;
+	  border-radius: 0px;
+	  width: 50%;
+	  position: relative;
+	  transition: all 3s ease-in-out;
+	  z-index: 3000;
+	  border: 1px solid black;
+	}
+	
+	@media screen and (max-width: 1366px){
+	  #mailchimp-popup{
+		width: 50%;
+	  }
+	}
+	
+	@media screen and (max-width: 992px){
+	  #mailchimp-popup{
+		width: 100%;
+	  }
+	
+	  #mailchimp-popup{
+		margin: 8rem auto;
+		padding:0px 0px 0px;
+		background: white;
+		border-radius: 0px;
+		width: 95%;
+		position: relative;
+		transition: all 3s ease-in-out;
+	  z-index: 3000;
+	  }
+	}
+	
+	.mailchimp-overlay{
+	  position: fixed;
+	  top: 0;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  background: rgba(0, 0, 0, 0.7);
+	  transition: opacity 500ms;
+	  visibility: visible;
+	  opacity: 1;
+	  display: none;
+	  z-index: 3000;
+	}
+	
+	#mailchimp-popup .popup-close{
+	  color: black;
+	  position: absolute;
+	  top: 10px;
+	  right: 10px;
+	  width:3rem;
+	  padding: 1rem;
+	  cursor: pointer;
+	}
+
+.mc-field-group label { 
+	font-family: 'brandon-grotesque', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.02rem;
+	margin-bottom: 0.2rem;
+}
+
+#mailchimp-popup input {
+	color: black;
+}
+
+

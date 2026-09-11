@@ -1,0 +1,59 @@
+- generic [active] [ref=f25e1]:
+  - generic [ref=f25e2]:
+    - banner [ref=f25e3]:
+      - navigation [ref=f25e4]:
+        - link "O nama" [ref=f25e5] [cursor=pointer]:
+          - /url: /o-nama
+        - link "Upoznaj nas" [ref=f25e6] [cursor=pointer]:
+          - /url: /upoznaj-nas
+      - link "Cloud 9 Reformer Pilates — početna" [ref=f25e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f25e8]: CLOUD
+      - navigation [ref=f25e15]:
+        - link "Virtuelni studio" [ref=f25e16] [cursor=pointer]:
+          - /url: /virtuelni-studio
+        - link "Termini uživo" [ref=f25e17] [cursor=pointer]:
+          - /url: /#termini
+    - generic [ref=f25e19]:
+      - heading "Otkrij biblioteku virtuelnog studija" [level=1] [ref=f25e20]
+      - paragraph [ref=f25e21]: Pregledaj sve časove na zahtjev, dostupne uz mjesečnu ili godišnju članarinu.
+      - link "Istraži" [ref=f25e22] [cursor=pointer]:
+        - /url: "#biblioteka"
+    - generic [ref=f25e24]:
+      - paragraph [ref=f25e25]: Biblioteka časova
+      - heading "Ovdje ide platforma" [level=2] [ref=f25e26]
+      - paragraph [ref=f25e27]: Na ovom mjestu stoji ugrađena biblioteka videa — pregled časova, filtriranje po trajanju i nivou, i prijava članica. To nije dio sajta nego vanjski servis koji se ubacuje jednim blokom koda, isto kao na referentnom sajtu.
+      - paragraph [ref=f25e28]: Kad izaberete platformu, ovaj blok se zamijeni njenim embedom i sve ostalo na stranici ostaje kako jeste.
+      - link "Pitaj za članstvo" [ref=f25e29] [cursor=pointer]:
+        - /url: /#kontakt
+    - heading "@cloud9reformerpilates" [level=2] [ref=f25e31]
+    - contentinfo [ref=f25e33]:
+      - generic [ref=f25e34]:
+        - generic [ref=f25e36]:
+          - generic [ref=f25e39]: CLOUD
+          - generic [ref=f25e47]: REFORMER PILATES
+        - navigation [ref=f25e48]:
+          - link "Početna" [ref=f25e49] [cursor=pointer]:
+            - /url: /
+          - link "Probni čas" [ref=f25e50] [cursor=pointer]:
+            - /url: /#kontakt
+          - link "O nama" [ref=f25e51] [cursor=pointer]:
+            - /url: /o-nama
+          - link "Upoznaj nas" [ref=f25e52] [cursor=pointer]:
+            - /url: /upoznaj-nas
+          - link "Virtuelni studio" [ref=f25e53] [cursor=pointer]:
+            - /url: /virtuelni-studio
+          - link "Termini uživo" [ref=f25e54] [cursor=pointer]:
+            - /url: /#termini
+          - link "Tvoj nalog" [ref=f25e55] [cursor=pointer]:
+            - /url: /virtuelni-studio
+          - link "Kontakt" [ref=f25e56] [cursor=pointer]:
+            - /url: /#kontakt
+        - generic [ref=f25e57]:
+          - heading "Prijavi se na novosti" [level=4] [ref=f25e58]
+          - generic [ref=f25e59]:
+            - textbox "Ime" [ref=f25e60]
+            - textbox "Email adresa" [ref=f25e61]
+            - button "Prijavi se" [ref=f25e62] [cursor=pointer]
+      - paragraph [ref=f25e64]: © 2026 CLOUD 9 REFORMER PILATES
+  - alert [ref=f25e65]
